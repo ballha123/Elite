@@ -1,0 +1,227 @@
+[
+{
+"name": "Chauffe-Cire Classique Elite Bleu",
+"description": "Le chauffe-cire classique indispensable pour une routine d'épilation simple, rapide et efficace à domicile. Conçu avec une cuve robuste de haute qualité, il assure une chauffe rapide et homogène de tout type de cire (perles, galets, cire traditionnelle). Son couvercle de protection bleu permet de surveiller la fonte en toute sécurité tout en maintenant la chaleur idéale pour un confort d'utilisation optimal.",
+"price": 45.00,
+"newPrice": 39.00,
+"image": [
+"https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?q=80&w=600"
+],
+"categoryId": "65b2c1f9e2b4a30012345678",
+"subCategoryId": "65b2c1f9e2b4a30012345679",
+"colors": ["Blanc/Bleu"],
+"productAttributes": {
+"type": "Classique à pot",
+"usage": "Domicile / Personnel",
+"puissance": "100W",
+"materiau": "ABS Plastique & Cuve Aluminium"
+},
+"inStock": true,
+"bestseller": false,
+"date": 1717441747000
+},
+{
+"name": "Chauffe-Cire Digital Elite Pro Black",
+"description": "Prenez le contrôle total de votre épilation grâce à ce chauffe-cire numérique intelligent. Doté d'un écran LED haute définition, il affiche la température en temps réel pour un réglage ultra-précis au degré près, éliminant tout risque de brûlure. Son design minimaliste noir et sa technologie de chauffe rapide en font le choix numéro un des prothésistes et des passionnées de beauté exigentes.",
+"price": 89.00,
+"newPrice": 79.00,
+"image": [
+"https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=600"
+],
+"categoryId": "65b2c1f9e2b4a30012345678",
+"subCategoryId": "65b2c1f9e2b4a30012345679",
+"colors": ["Noir"],
+"productAttributes": {
+"type": "Digital intelligent",
+"usage": "Professionnel / Domicile",
+"puissance": "120W",
+"materiau": "Premium ABS"
+},
+"inStock": true,
+"bestseller": true,
+"date": 1717441747000
+},
+{
+"name": "Chauffe-Cartouche Cire Solo Elite SM-65",
+"description": "L'appareil idéal pour une épilation ciblée et impeccable sans le moindre effort. Ce chauffe-cartouche roll-on individuel maintient la cire à température constante tout au long de votre séance. Sa forme ergonomique offre une excellente prise en main, vous garantissant une application fine, uniforme et propre de la cire sur les jambes, les bras ou les zones sensibles.",
+"price": 25.00,
+"newPrice": 19.90,
+"image": [
+"https://images.unsplash.com/photo-1590156221122-c41359c3f5eb?q=80&w=600"
+],
+"categoryId": "65b2c1f9e2b4a30012345678",
+"subCategoryId": "65b2c1f9e2b4a30012345679",
+"colors": ["Blanc/Bleu"],
+"productAttributes": {
+"type": "Roll-on Solo",
+"usage": "Domicile / Voyage",
+"puissance": "40W",
+"materiau": "Plastique Thermorésistant"
+},
+"inStock": true,
+"bestseller": false,
+"date": 1717441747000
+},
+{
+"name": "Chauffe-Cartouche Double Station Elite SM-66",
+"description": "Gagnez du temps et profitez d'une épilation fluide avec notre station double chauffe-cartouches. Conçue avec deux bases de chargement indépendantes, elle vous permet de chauffer deux recharges de cire simultanément. C'est l'outil parfait pour enchaîner les zones sans attendre que la cire ne refroidisse.",
+"price": 49.00,
+"newPrice": 42.00,
+"image": [
+"https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=600"
+],
+"categoryId": "65b2c1f9e2b4a30012345678",
+"subCategoryId": "65b2c1f9e2b4a30012345679",
+"colors": ["Blanc/Bleu"],
+"productAttributes": {
+"type": "Station Roll-on Duo",
+"usage": "Professionnel / Domicile Intensif",
+"puissance": "80W"
+},
+"inStock": true,
+"bestseller": false,
+"date": 1717441747000
+},
+{
+"name": "Station Triple Chauffe-Cartouche Elite",
+"description": "Le must-have absolu pour les professionnels de l'esthétique et les instituts à fort trafic. Cette base triple vous permet de garder 3 cartouches de cire chaudes et prêtes à l'emploi à tout moment. Ne tombez plus jamais en panne de cire chaude au milieu d'une prestation, pour un service rapide et haut de gamme.",
+"price": 69.00,
+"newPrice": 59.00,
+"image": [
+"https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=600"
+],
+"categoryId": "65b2c1f9e2b4a30012345678",
+"subCategoryId": "65b2c1f9e2b4a30012345679",
+"colors": ["Blanc/Bleu"],
+"productAttributes": {
+"type": "Station Roll-on Trio",
+"usage": "Professionnel de Beauté",
+"puissance": "120W"
+},
+"inStock": true,
+"bestseller": true,
+"date": 1717441747000
+},
+{
+"name": "Chauffe-Cire Pro Cuve Unique Inox Elite",
+"description": "Appareil d'épilation professionnel de grande capacité, idéal pour les instituts de beauté et salons de coiffure. Équipé d'une structure robuste et d'un thermostat analogique ultra-fiable, il offre une puissance maximale pour fondre rapidement de grandes quantités de cire chaude. Son design classique et ses poignées isolantes garantissent une maniabilité parfaite.",
+"price": 120.00,
+"newPrice": 99.00,
+"image": [
+"https://images.unsplash.com/photo-1515688594390-b649af70d282?q=80&w=600"
+],
+"categoryId": "65b2c1f9e2b4a30012345678",
+"subCategoryId": "65b2c1f9e2b4a30012345679",
+"colors": ["Blanc/Métal"],
+"productAttributes": {
+"type": "Analogique Professionnel",
+"usage": "Salon de Beauté / Spa",
+"puissance": "150W",
+"materiau": "Acier Inox & Cuve Amovible"
+},
+"inStock": true,
+"bestseller": false,
+"date": 1717441747000
+},
+{
+"name": "Chauffe-Cire Pro Double Cuve Elite Multi-Wax",
+"description": "La référence ultime pour les esthéticiennes professionnelles. Cet appareil haut de gamme dispose de deux cuves de chauffage indépendantes avec thermostats séparés. Il vous permet de travailler simultanément avec deux types de cire différents (cire pelable et cire avec bandes) à deux températures optimales différentes pour s'adapter à chaque type de peau et de zone.",
+"price": 189.00,
+"newPrice": 169.00,
+"image": [
+"https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=600"
+],
+"categoryId": "65b2c1f9e2b4a30012345678",
+"subCategoryId": "65b2c1f9e2b4a30012345679",
+"colors": ["Blanc/Métal"],
+"productAttributes": {
+"type": "Double Cuve Pro",
+"usage": "Salon de Beauté / Spa",
+"puissance": "300W",
+"materiau": "Métal & Boutons Analogiques"
+},
+"inStock": true,
+"bestseller": false,
+"date": 1717441747000
+},
+{
+"name": "Pack Rasoirs de Précision Sourcils Elite Flamingo",
+"description": "Redéfinissez votre regard en quelques secondes avec ce pack de 3 rasoirs à sourcils de précision style Flamingo. Dotés d'une micro-lame en acier inoxydable hautement sécurisée pour éviter les coupures, ils retirent avec douceur le duvet facial et dessinent une ligne de sourcils nette et parfaite sans douleur. Un indispensable de votre trousse de maquillage.",
+"price": 9.00,
+"newPrice": 6.50,
+"image": [
+"https://images.unsplash.com/photo-1501160268786-21a56f4df8e2?q=80&w=600"
+],
+"categoryId": "65b2c1f9e2b4a30012345680",
+"subCategoryId": "65b2c1f9e2b4a30012345681",
+"colors": ["Orange", "Violet", "Rose"],
+"productAttributes": {
+"type": "Rasoir de précision",
+"usage": "Visage & Sourcils",
+"materiau": "Acier Inoxydable & ABS"
+},
+"inStock": true,
+"bestseller": true,
+"date": 1717441747000
+},
+{
+"name": "Set de 3 Rasoirs Beauté Kaili Pastel Soft",
+"description": "Éliminez le duvet du visage avec une douceur extrême grâce au set de 3 rasoirs Kaili aux couleurs pastel. Idéal pour la technique du dermaplaning à domicile, ce rasoir exfolie délicatement les cellules mortes et retire les poils fins pour une peau instantanément plus lumineuse et une meilleure tenue de votre maquillage.",
+"price": 8.00,
+"newPrice": 5.90,
+"image": [
+"https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=600"
+],
+"categoryId": "65b2c1f9e2b4a30012345680",
+"subCategoryId": "65b2c1f9e2b4a30012345681",
+"colors": ["Rose", "Bleu", "Blanc"],
+"productAttributes": {
+"type": "Dermaplaning",
+"usage": "Visage & Teint",
+"materiau": "Acier Fine-Edge"
+},
+"inStock": true,
+"bestseller": false,
+"date": 1717441747000
+},
+{
+"name": "Set Rasoirs Visage Kaili Purple Touch (3 pcs)",
+"description": "Dessinez vos sourcils avec la précision d'un professionnel. Ce lot de 3 rasoirs Kaili ergonomiques vous garantit un tracé net, propre et sans rougeurs. Le manche anti-dérapant offre une précision maximale pour sculpter les zones les plus délicates de votre visage en toute sécurité.",
+"price": 8.00,
+"newPrice": 5.90,
+"image": [
+"https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=600"
+],
+"categoryId": "65b2c1f9e2b4a30012345680",
+"subCategoryId": "65b2c1f9e2b4a30012345681",
+"colors": ["Mauve", "Rose", "Bleu Ciel"],
+"productAttributes": {
+"type": "Rasoir de précision",
+"usage": "Sourcils",
+"materiau": "Acier Inox"
+},
+"inStock": true,
+"bestseller": false,
+"date": 1717441747000
+},
+{
+"name": "Rasoirs Fins de Précision Kaili Classic Mint (3 pcs)",
+"description": "Le secret d'une peau de bébé et d'un teint glowy. Ces rasoirs de haute précision aux teintes fraîches de menthe et de rose glissent délicatement sur la peau sans l'irriter. Parfaits pour nettoyer les sourcils, les tempes et le dessus des lèvres en un clin d'œil.",
+"price": 8.00,
+"newPrice": 5.90,
+"image": [
+"https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=600"
+],
+"categoryId": "65b2c1f9e2b4a30012345680",
+"subCategoryId": "65b2c1f9e2b4a30012345681",
+"colors": ["Vert", "Rose", "Bleu"],
+"productAttributes": {
+"type": "Rasoir de précision Slim",
+"usage": "Dermaplaning & Sourcils",
+"materiau": "Acier Haute Précision"
+},
+"inStock": true,
+"bestseller": false,
+"date": 1717441747000
+}
+]

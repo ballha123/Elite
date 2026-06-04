@@ -1,0 +1,125 @@
+[
+  {
+    "name": "Kit d'Embouts de Ponceuse DH-1 Pro Precision",
+    "description": "Set de 5 embouts en céramique et carbure de tungstène de haute qualité avec socle de protection rose. Idéal pour la dépose rapide du gel et le lissage parfait de la surface de l'ongle.",
+    "price": 24.00,
+    "images": ["https://images.unsplash.com/photo-1604654894610-df49068845f4?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Embouts",
+    "colors": ["Socle Rose"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Kit d'Embouts Céramique DH-2 Cuticule Soft",
+    "description": "Sélection d'embouts de ponceuse à tête affinée et sphérique, spécialement conçus pour nettoyer les cuticules et préparer l'ongle naturel sans échauffement ni agression.",
+    "price": 24.00,
+    "images": ["https://images.unsplash.com/photo-1604941097474-9313d7de8852?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Embouts",
+    "colors": ["Socle Rose"],
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "name": "Kit d'Embouts Arc-en-Ciel DH-3 Plasma",
+    "description": "Embouts professionnels avec revêtement plasma multicolore ultra-résistant. Offre une longévité exceptionnelle pour le travail intensif sur résine acrylique et capsules.",
+    "price": 26.00,
+    "images": ["https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Embouts",
+    "colors": ["Socle Rose"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Mini Blocs Limes Spongieuses HM1 - Pack de 50",
+    "description": "Mini buffers rectangulaires colorés double face pour matifier doucement l'ongle avant la pose ou éliminer les petites imperfections après le limage. Format mini ultra-pratique.",
+    "price": 12.00,
+    "images": ["https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Limes & Buffers",
+    "colors": ["Multicolore"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Mini Limes Bananes Matifiantes HM2 - Pack Solo Yellow",
+    "description": "Limes éponges douces de forme ergonomique allongée jaune. Offrent une excellente prise en main pour lisser le contour des cuticules et finaliser la forme de l'ongle.",
+    "price": 10.00,
+    "images": ["https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Limes & Buffers",
+    "colors": ["Jaune"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Set de Pinceaux Nail Art B1 - Manches Bois Pro",
+    "description": "Assortiment de pinceaux fins de précision pour la construction en gel, les dégradés et les designs de Nail Art fins. Poils synthétiques de haute qualité pour un tracé net.",
+    "price": 18.00,
+    "images": ["https://images.unsplash.com/photo-1522335789203-aabd9fc54bc9?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Pinceaux",
+    "colors": ["Bois Naturel"],
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "name": "Ponceuse Digitale Professionnelle SUN-QY-11",
+    "description": "Station de ponçage haut de gamme au design rectangulaire moderne. Équipée d'un moteur silencieux sans vibrations, d'un réglage tactile et d'un support de pièce à main intégré.",
+    "price": 135.00,
+    "newPrice": 115.00,
+    "images": ["https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Ponceuses",
+    "colors": ["Argent Métal", "Or Rose", "Noir"],
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "name": "Ponceuse de Table Compacte SUN-QY-10",
+    "description": "Format sphérique compact élégant pour cette ponceuse performante. Vitesse réglable via un potentiomètre rotatif fluide, idéale pour les postes de travail optimisés.",
+    "price": 110.00,
+    "images": ["https://images.unsplash.com/photo-1608248597481-496100c8c836?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Ponceuses",
+    "colors": ["Blanc", "Rose", "Mauve"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Ponceuse Ergonomique M1 Sander Sphérique",
+    "description": "Appareil de ponçage au design incurvé futuriste. Écran LED affichant le nombre de tours minute en temps réel. Système Twist-Lock sécurisé pour un changement d'embout rapide.",
+    "price": 95.00,
+    "images": ["https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Ponceuses",
+    "colors": ["Blanc/Chrome"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Mini Ponceuse Design M3 Glossy Pink",
+    "description": "Une mini station de ponçage ultra-mignonne rose et noire avec bouton latéral. Parfaite pour les prothésistes débutantes ou un usage à domicile performant.",
+    "price": 65.00,
+    "images": ["https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Ponceuses",
+    "colors": ["Rose/Noir"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Station Heavy Duty Nail Drill M12",
+    "description": "Le monstre de puissance de la gamme Elite. Livrée avec une pédale de contrôle au pied pour libérer vos mains et une pièce à main robuste en acier isolée contre la chaleur.",
+    "price": 150.00,
+    "newPrice": 129.00,
+    "images": ["https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Ponceuses",
+    "colors": ["Or Noir"],
+    "inStock": true,
+    "bestseller": true
+  }
+]

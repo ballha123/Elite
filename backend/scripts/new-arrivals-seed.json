@@ -1,0 +1,159 @@
+[
+  {
+    "name": "Appareil Manucure Rotatif M13 Mini",
+    "description": "Ponceuse et polisseuse à ongles compacte M13, idéale pour façonner les ongles en gel ou résine avec précision. Légère, ergonomique et silencieuse pour un confort optimal.",
+    "price": 35.00,
+    "images": ["https://images.unsplash.com/photo-1604654894610-df49068845f4?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Appareils",
+    "colors": ["Rose", "Violet", "Blanc"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Adaptateur Secteur Fast Charger 4A",
+    "description": "Bloc d'alimentation de remplacement haute capacité 4A, parfaitement compatible avec les lampes UV/LED professionnelles et appareils d'onglerie pour une puissance stable.",
+    "price": 15.00,
+    "images": ["https://images.unsplash.com/photo-1622445275463-afa2ab738c34?q=80&w=600"],
+    "category": "Accessoires",
+    "subCategory": "Électronique",
+    "colors": ["Noir"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Lampe UV/LED Professionnelle SUN-X11 Max",
+    "description": "Technologie double source lumineuse haute puissance pour catalyser tous les types de gels, vernis semi-permanents et dippings en un temps record. Écran digital et capteur automatique.",
+    "price": 75.00,
+    "newPrice": 65.00,
+    "images": ["https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Lampes",
+    "colors": ["Blanc"],
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "name": "Mini Lampe Sphérique UV/LED SUN-S7",
+    "description": "Un design rond ultra-mignon et compact pour cette mini lampe de séchage rapide. Parfaite pour les retouches rapides à la maison ou en déplacement.",
+    "price": 30.00,
+    "images": ["https://images.unsplash.com/photo-1604941097474-9313d7de8852?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Lampes",
+    "colors": ["Rose Pastel", "Noir", "Blanc"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Lampe UV/LED Premium Design SUN-L2 Gold",
+    "description": "L'élégance s'invite dans votre salon avec la SUN-L2 dotée de finitions dorées et d'un affichage floral. Offre un séchage homogène et un mode basse chaleur anti-coups de chaud.",
+    "price": 85.00,
+    "images": ["https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=600"],
+    "category": "Onglerie",
+    "subCategory": "Lampes",
+    "colors": ["Blanc/Or"],
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "name": "Trousse Holographique Soft Cosmetics Case",
+    "description": "Trousse à maquillage souple aux reflets nacrés et irisés. Imperméable et spacieuse, elle transporte vos essentiels de beauté avec une touche de magie féerique.",
+    "price": 28.00,
+    "images": ["https://images.unsplash.com/photo-1522335789203-aabd9fc54bc9?q=80&w=600"],
+    "category": "Accessoires",
+    "subCategory": "Vanities",
+    "colors": ["Holographique"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Organisateur Compact de Pinceaux & Maquillage",
+    "description": "Pochette de rangement noire zippée avec fentes élastiques intérieures dédiées aux pinceaux, crayons et eye-liners. Reste bien à plat pour un accès facile.",
+    "price": 20.00,
+    "images": ["https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=600"],
+    "category": "Accessoires",
+    "subCategory": "Vanities",
+    "colors": ["Noir"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Mallette de Maquillage Rigide Pro Red Métal",
+    "description": "Véritable vanity rigide de style professionnel en aluminium rouge rainuré. Équipée de verrous de sécurité et de compartiments dépliables à étages pour les maquilleuses et coiffeuses.",
+    "price": 95.00,
+    "newPrice": 85.00,
+    "images": ["https://images.unsplash.com/photo-1608248597481-496100c8c836?q=80&w=600"],
+    "category": "Accessoires",
+    "subCategory": "Vanities",
+    "colors": ["Rouge Métal"],
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "name": "Vanity Organisateur Rigide Pink Mirror",
+    "description": "Boîte de rangement beauté rose poudré avec séparateurs amovibles et un miroir intégré sous le couvercle. Parfaite pour trier ses palettes et flacons.",
+    "price": 45.00,
+    "images": ["https://images.unsplash.com/photo-1527632919775-6d3affb64bc8?q=80&w=600"],
+    "category": "Accessoires",
+    "subCategory": "Vanities",
+    "colors": ["Rose Poudré"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Appareil de Massage Cou & Visage EMS LED Light",
+    "description": "Masseur ergonomique anti-âge utilisant la technologie des micro-courants EMS et la thérapie par lumière LED pour lifter, raffermir la peau du cou et lisser le double menton.",
+    "price": 65.00,
+    "newPrice": 49.00,
+    "images": ["https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=600"],
+    "category": "Soin",
+    "subCategory": "Appareils Visage",
+    "colors": ["Blanc/Rouge"],
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "name": "Épingles à Cheveux Bobby Pins Pro - Boîte Bulk",
+    "description": "Grande boîte d'épingles à cheveux noires plates de qualité salon. Idéales pour fixer solidement les chignons, tresses et structures de coiffures sophistiquées.",
+    "price": 8.00,
+    "images": ["https://images.unsplash.com/photo-1590156546946-ce55a12a63ee?q=80&w=600"],
+    "category": "Coiffure",
+    "subCategory": "Accessoires",
+    "colors": ["Noir"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Élastiques à Cheveux Fins - Pack Multi-Stretch",
+    "description": "Pochette de mini élastiques noirs haute résistance, parfaits pour attacher les petites mèches sans casser ou arracher la fibre capillaire.",
+    "price": 5.00,
+    "images": ["https://images.unsplash.com/photo-1606131731447-49622111568f?q=80&w=600"],
+    "category": "Coiffure",
+    "subCategory": "Accessoires",
+    "colors": ["Noir"],
+    "inStock": true,
+    "bestseller": false
+  },
+  {
+    "name": "Bonnet de Nuit en Satin Premium Wide Band",
+    "description": "Bonnet en satin doté d'un large bandeau élastique confortable. Protège les cheveux des frictions nocturnes, préserve l'hydratation et évite les frisottis au réveil.",
+    "price": 18.00,
+    "images": ["https://images.unsplash.com/photo-1576243345690-4e4b79b63288?q=80&w=600"],
+    "category": "Coiffure",
+    "subCategory": "Accessoires",
+    "colors": ["Bordeaux", "Noir"],
+    "inStock": true,
+    "bestseller": true
+  },
+  {
+    "name": "Pinces Crabes Sectionnantes - Lot de Papillons",
+    "description": "Lot de pinces de séparation professionnelles en plastique noir et blanc pour maintenir fermement les sections de cheveux lors du séchage ou du lissage.",
+    "price": 7.00,
+    "images": ["https://images.unsplash.com/photo-1631730359575-38e4755d772b?q=80&w=600"],
+    "category": "Coiffure",
+    "subCategory": "Accessoires",
+    "colors": ["Noir & Blanc"],
+    "inStock": true,
+    "bestseller": false
+  }
+]

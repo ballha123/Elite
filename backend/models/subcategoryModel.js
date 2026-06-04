@@ -7,5 +7,5 @@ const subcategorySchema = new mongoose.Schema({
 
 subcategorySchema.index({ categoryId: 1, name: 1 }, { unique: true });
 
-const subcategoryModel = mongoose.models.subcategory || mongoose.model("subcategory", subcategorySchema);
-export default subcategoryModel;
+const subCategoryModel = mongoose.models.subcategory || mongoose.model("subcategory", subcategorySchema, "subcategories");
+export default subCategoryModel;

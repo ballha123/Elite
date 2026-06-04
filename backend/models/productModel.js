@@ -8,7 +8,8 @@ const productAttributesSchema = new mongoose.Schema({
     classification: { type: String, default: "" },
     content: { type: String, default: "" },
     country: { type: String, default: "" },
-    collection: { type: String, default: "" },
+    // 👇 BADALNA ESM EL CHAMP HNA BECH MA YCONFLITIWCH MAA MONGOOSE
+    productCollection: { type: String, default: "" }, 
     manufacturer: { type: String, default: "" },
     precautions: { type: String, default: "" },
     usageTips: { type: String, default: "" },
@@ -36,4 +37,5 @@ productSchema.index({ date: -1 });
 productSchema.index({ categoryId: 1, subCategoryId: 1 });
 
 const productModel = mongoose.models.product || mongoose.model("product", productSchema);
+
 export default productModel;

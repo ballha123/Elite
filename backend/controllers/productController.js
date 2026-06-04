@@ -38,11 +38,17 @@ const normalizeProductAttributes = (input) => {
     return normalized
 }
 
+// Helper pour vérifier si une chaîne est une URL valide (évite d'envoyer des liens à l'uploader de Cloudinary)
+const isUrl = (str) => {
+    if (typeof str !== 'string') return false;
+    return str.startsWith('http://') || str.startsWith('https://');
+}
+
 // function for add product
 const addProduct = async (req, res) => {
     try {
 
-        const { name, description, price, newPrice, categoryId, subCategoryId, colors, bestseller, inStock, discountTimer, productAttributes } = req.body
+        const { name, description, price, newPrice, categoryId, subCategoryId, colors, bestseller, inStock, discountTimer, productAttributes, images: incomingImages } = req.body
 
         // Validation
         if (!name || !description || !categoryId) {
@@ -73,23 +79,38 @@ const addProduct = async (req, res) => {
             return res.json({ success: false, message: "Colors must be a non-empty array of strings" })
         }
 
+        // Récupération des fichiers uploadés par formulaire (Multer)
         const image1 = req.files?.image1?.[0]
         const image2 = req.files?.image2?.[0]
         const image3 = req.files?.image3?.[0]
         const image4 = req.files?.image4?.[0]
+        const fileImages = [image1, image2, image3, image4].filter((item) => item !== undefined)
 
-        const images = [image1, image2, image3, image4].filter((item) => item !== undefined)
+        let imagesUrl = []
 
-        if (images.length === 0) {
-            return res.json({ success: false, message: "At least one image is required" })
+        // 1. Si des URLs brutes ont été envoyées (cas du script de seed ou API textuelle)
+        if (incomingImages) {
+            let parsedIncoming = []
+            try {
+                parsedIncoming = typeof incomingImages === 'string' ? JSON.parse(incomingImages) : incomingImages
+            } catch {
+                parsedIncoming = [incomingImages]
+            }
+            if (Array.isArray(parsedIncoming)) {
+                imagesUrl = parsedIncoming.filter(img => isUrl(img))
+            }
         }
 
-        let imagesUrl = await Promise.all(
-            images.map(async (item) => {
-                const result = await cloudinary.uploader.upload(item.path, { resource_type: 'image' })
-                return result.secure_url
-            })
-        )
+        // 2. Si des fichiers physiques sont présents, on les envoie sur Cloudinary
+        if (fileImages.length > 0) {
+            const uploadedUrls = await Promise.all(
+                fileImages.map(async (item) => {
+                    const result = await cloudinary.uploader.upload(item.path, { resource_type: 'image' })
+                    return result.secure_url
+                })
+            )
+            imagesUrl = [...imagesUrl, ...uploadedUrls]
+        }
 
         const newPriceNum = newPrice !== undefined && newPrice !== '' ? Number(newPrice) : undefined
         const hasValidNewPrice = !isNaN(newPriceNum) && newPriceNum >= 0
@@ -114,7 +135,7 @@ const addProduct = async (req, res) => {
             productAttributes: normalizeProductAttributes(productAttributes),
             inStock: inStock === "false" ? false : true,
             bestseller: bestseller === "true",
-            image: imagesUrl,
+            image: imagesUrl, 
             date: Date.now()
         }
 
@@ -136,6 +157,7 @@ const listProducts = async (req, res) => {
         const products = await productModel.find({})
             .populate("categoryId", "name")
             .populate("subCategoryId", "name")
+            .populate("image")
             .lean()
 
         const productIds = products.map(p => p._id)
@@ -212,7 +234,7 @@ const singleProduct = async (req, res) => {
 // function for update product
 const updateProduct = async (req, res) => {
     try {
-        const { id, name, description, price, newPrice, categoryId, subCategoryId, colors, bestseller, inStock, discountTimer, productAttributes } = req.body
+        const { id, name, description, price, newPrice, categoryId, subCategoryId, colors, bestseller, inStock, discountTimer, productAttributes, images: incomingImages } = req.body
 
         if (!id) {
             return res.json({ success: false, message: "Product ID is required" })
@@ -253,12 +275,28 @@ const updateProduct = async (req, res) => {
         const newPriceNum = newPrice !== undefined && newPrice !== '' ? Number(newPrice) : undefined
         const hasValidNewPrice = newPriceNum !== undefined && !isNaN(newPriceNum) && newPriceNum >= 0
 
+        // Gestion de la mise à jour des images
         let imagesUrl = [...(product.image || [])]
+        
+        // Si le body contient de nouvelles URLs directes, on écrase ou on fusionne selon tes besoins (ici on remplace)
+        if (incomingImages) {
+            let parsedIncoming = []
+            try {
+                parsedIncoming = typeof incomingImages === 'string' ? JSON.parse(incomingImages) : incomingImages
+            } catch {
+                parsedIncoming = [incomingImages]
+            }
+            if (Array.isArray(parsedIncoming)) {
+                imagesUrl = parsedIncoming.filter(img => isUrl(img))
+            }
+        }
+
         const image1 = req.files?.image1?.[0]
         const image2 = req.files?.image2?.[0]
         const image3 = req.files?.image3?.[0]
         const image4 = req.files?.image4?.[0]
 
+        // On remplace les indexes spécifiés si un fichier physique Multer est soumis
         if (image1) {
             const result = await cloudinary.uploader.upload(image1.path, { resource_type: 'image' })
             imagesUrl[0] = result.secure_url
@@ -274,10 +312,6 @@ const updateProduct = async (req, res) => {
         if (image4) {
             const result = await cloudinary.uploader.upload(image4.path, { resource_type: 'image' })
             imagesUrl[3] = result.secure_url
-        }
-
-        if (imagesUrl.filter(Boolean).length === 0) {
-            return res.json({ success: false, message: "At least one image is required" })
         }
 
         const prevPrice = product.price
@@ -302,7 +336,7 @@ const updateProduct = async (req, res) => {
         product.productAttributes = normalizeProductAttributes(productAttributes || product.productAttributes)
         product.inStock = inStock === "false" ? false : true
         product.bestseller = bestseller === "true"
-        product.image = imagesUrl.filter(Boolean)
+        product.image = imagesUrl.filter(Boolean) 
 
         await product.save()
 
@@ -340,7 +374,7 @@ const updateProduct = async (req, res) => {
 
     } catch (error) {
         console.log(error)
-        res.json({ success: false, message: error.message })
+        res.json({ success: false, message: message.error })
     }
 }
 

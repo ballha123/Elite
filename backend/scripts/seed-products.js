@@ -7,23 +7,6 @@
  * Prerequisites:
  * - Run seed:categories first (or have categories in DB)
  * - Images: use local paths (relative to backend folder) or public image URLs
- *
- * JSON format:
- * [
- *   {
- *     "name": "Product name",
- *     "description": "Product description",
- *     "price": 25,
- *     "newPrice": 20,           // optional
- *     "category": "Lèvres",     // category name (or use categoryId)
- *     "subCategory": "Gloss",   // optional, subcategory name
- *     "colors": ["#FF0000", "#0000FF"],
- *     "inStock": true,
- *     "bestseller": false,
- *     "discountTimer": 24,      // optional, hours until discount ends
- *     "images": ["./seed-data/images/product1.jpg", "https://example.com/img.jpg"]
- *   }
- * ]
  */
 
 import 'dotenv/config'
@@ -48,10 +31,13 @@ cloudinary.config({
 
 async function uploadImage(source) {
   const isUrl = typeof source === 'string' && (source.startsWith('http://') || source.startsWith('https://'))
+  
+  // FIX CRUCIAL : Si c'est déjà une URL web (Unsplash, etc.), on ne l'envoie plus à Cloudinary !
   if (isUrl) {
-    const result = await cloudinary.uploader.upload(source, { resource_type: 'image' })
-    return result.secure_url
+    return source
   }
+  
+  // Si c'est un fichier local sur ton PC, on l'upload normalement
   const filePath = path.isAbsolute(source) ? source : path.resolve(BACKEND_DIR, source)
   if (!fs.existsSync(filePath)) {
     throw new Error(`Image not found: ${filePath}`)
@@ -87,7 +73,7 @@ function buildProductDocument(seed, suffixNumber = null) {
     colors: seed.colors,
     inStock: seed.inStock !== false,
     bestseller: seed.bestseller === true,
-    image: seed.imageUrls,
+    image: seed.imageUrls, // Tableau d'URLs (directes ou Cloudinary)
     date: Date.now()
   }
 }
@@ -121,6 +107,10 @@ async function seed() {
     await mongoose.connect(process.env.MONGODB_URI)
     console.log('Connected to MongoDB')
 
+    // FIX DUBLONS : Nettoyer la collection à blanc avant l'insertion
+    await productModel.deleteMany({})
+    console.log('🗑️ Collection "products" nettoyée avec succès.')
+
     const categoriesByName = {}
     const subcategoriesByKey = {}
     const preparedByCategory = {}
@@ -133,15 +123,17 @@ async function seed() {
         continue
       }
 
+      // Extraction des images (gère "image" et "images")
+      const images = Array.isArray(p.image) ? p.image : (Array.isArray(p.images) ? p.images : [])
+      
       let categoryId = p.categoryId
       if (!categoryId && p.category) {
         const catName = String(p.category).trim()
         if (!categoriesByName[catName]) {
-          const cat = await categoryModel.findOne({ name: catName })
+          let cat = await categoryModel.findOne({ name: catName })
           if (!cat) {
-            console.warn(`Skipping "${p.name}": category "${catName}" not found`)
-            skipped++
-            continue
+            cat = await categoryModel.create({ name: catName, image: images[0] || '' })
+            console.log(`🆕 Catégorie créée automatiquement : "${catName}"`)
           }
           categoriesByName[catName] = cat._id
         }
@@ -157,21 +149,20 @@ async function seed() {
       if (!subCategoryId && p.subCategory && categoryId) {
         const subName = String(p.subCategory).trim()
         const key = `${categoryId}-${subName}`
+        
         if (!subcategoriesByKey[key]) {
-          const sub = await subcategoryModel.findOne({ categoryId, name: subName })
-          if (sub) subcategoriesByKey[key] = sub._id
+          let sub = await subcategoryModel.findOne({ categoryId, name: subName })
+          if (!sub) {
+            sub = await subcategoryModel.create({ categoryId, name: subName })
+            console.log(`🆕 Sous-catégorie créée automatiquement : "${subName}"`)
+          }
+          subcategoriesByKey[key] = sub._id
         }
         subCategoryId = subcategoriesByKey[key] || null
       }
 
-      const colors = Array.isArray(p.colors) ? p.colors.map(String) : ['#000000']
-      if (colors.length === 0) {
-        console.warn(`Skipping "${p.name}": at least one color required`)
-        skipped++
-        continue
-      }
-
-      const images = Array.isArray(p.images) ? p.images : []
+      const colors = Array.isArray(p.colors) ? p.colors.map(String) : ['Blanc']
+      
       if (images.length === 0) {
         console.warn(`Skipping "${p.name}": at least one image required`)
         skipped++
@@ -202,8 +193,7 @@ async function seed() {
 
     const allCategories = await categoryModel.find({}).sort({ name: 1 }).lean()
     if (allCategories.length === 0) {
-      console.log('No categories in DB. Run seed:categories first.')
-      return
+      console.log('No categories found in DB. Automatically creating categories based on JSON data...')
     }
 
     const globalTemplate = (() => {
@@ -211,14 +201,17 @@ async function seed() {
       return firstWithData || null
     })()
 
-    if (!globalTemplate && allCategories.some(c => !preparedByCategory[String(c._id)]?.length)) {
-      console.log('No valid products to use as template for categories without JSON data.')
+    if (!globalTemplate) {
+      console.log('No valid products to insert.')
       console.log(`Skipped: ${skipped}`)
       return
     }
 
+    // Si la DB est vide au niveau des catégories, on récupère celles créées à la volée
+    const activeCategories = allCategories.length > 0 ? allCategories : await categoryModel.find({}).lean()
+
     const categoryNameById = {}
-    for (const c of allCategories) categoryNameById[String(c._id)] = c.name
+    for (const c of activeCategories) categoryNameById[String(c._id)] = c.name
 
     const subsByCategory = {}
     const allSubs = await subcategoryModel.find({}).lean()
@@ -229,7 +222,7 @@ async function seed() {
     }
 
     let createdCount = 0
-    for (const cat of allCategories) {
+    for (const cat of activeCategories) {
       const catId = String(cat._id)
       const catName = categoryNameById[catId] || cat.name
       const templates = preparedByCategory[catId] || []
@@ -240,25 +233,14 @@ async function seed() {
         for (const t of templates) {
           toInsert.push(buildProductDocument(t))
         }
+        
+        // Système de remplissage automatique si la catégorie contient moins que MIN_PRODUCTS_PER_CATEGORY (10)
         const missing = MIN_PRODUCTS_PER_CATEGORY - toInsert.length
-        if (missing > 0) {
+        if (missing > 0 && templates.length > 0) {
           for (let i = 0; i < missing; i++) {
             const base = templates[i % templates.length]
             toInsert.push(buildProductDocument(base, templates.length + i + 1))
           }
-        }
-      } else {
-        const baseName = String(globalTemplate.name).trim()
-        const subs = subsByCategory[catId] || []
-        for (let i = 0; i < MIN_PRODUCTS_PER_CATEGORY; i++) {
-          const sub = subs[i % subs.length]
-          const template = {
-            ...globalTemplate,
-            categoryId: cat._id,
-            subCategoryId: sub ? sub._id : undefined,
-            name: `${baseName} - ${catName} ${i + 1}`
-          }
-          toInsert.push(buildProductDocument(template, null))
         }
       }
 
