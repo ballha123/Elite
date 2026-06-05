@@ -59,7 +59,8 @@ app.use('/api/newsletter/subscribe', newsletterSubscribeLimiter)
 
 const PRODUCTION_ORIGINS = [
     'https://elite-admin-one.vercel.app',
-    'https://elite-ecru-alpha.vercel.app'
+    'https://elite-ecru-alpha.vercel.app',
+    'https://eliteadmin-panel.vercel.app' // Ajout de ton domaine admin principal au cas où
 ]
 
 const isAllowedOrigin = (origin) => {
@@ -78,16 +79,21 @@ const isAllowedOrigin = (origin) => {
     return false
 }
 
+// Configuration CORS corrigée et optimisée pour Vercel Serverless
 app.use(cors({
     origin: function (origin, callback) {
         if (isAllowedOrigin(origin)) {
             callback(null, true)
         } else {
-            callback(new Error(`CORS blocked for origin: ${origin}`))
+            // On refuse l'accès gentiment (false) au lieu de lever une exception (Error) 
+            // qui fait crasher l'application sur Vercel
+            callback(null, false)
         }
     },
-    credentials: true
+    credentials: true,
+    optionsSuccessStatus: 200 // Indispensable pour que le navigateur valide les requêtes de preflight (OPTIONS)
 }))
+
 // Logging
 app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'))
 
@@ -95,13 +101,13 @@ app.use(morgan(process.env.NODE_ENV === 'production' ? 'combined' : 'dev'))
 app.use(express.json())
 
 // api endpoints
-app.use('/api/user',userRouter)
-app.use('/api/product',productRouter)
-app.use('/api/cart',cartRouter)
-app.use('/api/order',orderRouter)
-app.use('/api/review',reviewRouter)
-app.use('/api/category',categoryRouter)
-app.use('/api/favorite',favoriteRouter)
+app.use('/api/user', userRouter)
+app.use('/api/product', productRouter)
+app.use('/api/cart', cartRouter)
+app.use('/api/order', orderRouter)
+app.use('/api/review', reviewRouter)
+app.use('/api/category', categoryRouter)
+app.use('/api/favorite', favoriteRouter)
 app.use('/api/newsletter', newsletterRouter)
 app.use('/api/hero', heroRouter)
 
