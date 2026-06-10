@@ -22,6 +22,7 @@ import subcategoryModel from '../models/subcategoryModel.js'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const BACKEND_DIR = path.resolve(__dirname, '..')
 const MIN_PRODUCTS_PER_CATEGORY = 10
+const PLACEHOLDER_IMAGE = "https://placehold.co/600x600/png?text=Image+A+Ajouter"
 
 cloudinary.config({
   cloud_name: process.env.CLOUDINARY_NAME || process.env.CLOUDINARY_CLOUD_NAME,
@@ -32,16 +33,19 @@ cloudinary.config({
 async function uploadImage(source) {
   const isUrl = typeof source === 'string' && (source.startsWith('http://') || source.startsWith('https://'))
   
-  // FIX CRUCIAL : Si c'est déjà une URL web (Unsplash, etc.), on ne l'envoie plus à Cloudinary !
+  // Si c'est déjà une URL web, on la retourne directement
   if (isUrl) {
     return source
   }
   
-  // Si c'est un fichier local sur ton PC, on l'upload normalement
+  // Si c'est un fichier local, on vérifie son existence
   const filePath = path.isAbsolute(source) ? source : path.resolve(BACKEND_DIR, source)
   if (!fs.existsSync(filePath)) {
-    throw new Error(`Image not found: ${filePath}`)
+    console.warn(`⚠️ Fichier local introuvable : ${filePath}. Remplacement par le placeholder.`)
+    return PLACEHOLDER_IMAGE
   }
+
+  // Upload Cloudinary
   const result = await cloudinary.uploader.upload(filePath, { resource_type: 'image' })
   return result.secure_url
 }
@@ -107,7 +111,7 @@ async function seed() {
     await mongoose.connect(process.env.MONGODB_URI)
     console.log('Connected to MongoDB')
 
-    // FIX DUBLONS : Nettoyer la collection à blanc avant l'insertion
+    // Nettoyer la collection à blanc avant l'insertion
     await productModel.deleteMany({})
     console.log('🗑️ Collection "products" nettoyée avec succès.')
 
@@ -126,13 +130,28 @@ async function seed() {
       // Extraction des images (gère "image" et "images")
       const images = Array.isArray(p.image) ? p.image : (Array.isArray(p.images) ? p.images : [])
       
+      // =========================================================================
+      // 🌟 INTERCEPTION AUTOMATIQUE : Forcer la catégorie "Salon Supplies"
+      // =========================================================================
+      const searchPool = `${p.name} ${images.join(' ')}`.toLowerCase()
+      if (
+        searchPool.includes('ponceuse') || 
+        searchPool.includes('salon-supplies') || 
+        searchPool.includes('matériel') ||
+        searchPool.includes('machine')
+      ) {
+        p.category = "Salon Supplies"
+        delete p.categoryId 
+      }
+      // =========================================================================
+
       let categoryId = p.categoryId
       if (!categoryId && p.category) {
         const catName = String(p.category).trim()
         if (!categoriesByName[catName]) {
           let cat = await categoryModel.findOne({ name: catName })
           if (!cat) {
-            cat = await categoryModel.create({ name: catName, image: images[0] || '' })
+            cat = await categoryModel.create({ name: catName, image: images[0] || PLACEHOLDER_IMAGE })
             console.log(`🆕 Catégorie créée automatiquement : "${catName}"`)
           }
           categoriesByName[catName] = cat._id
@@ -163,21 +182,21 @@ async function seed() {
 
       const colors = Array.isArray(p.colors) ? p.colors.map(String) : ['Blanc']
       
-      if (images.length === 0) {
-        console.warn(`Skipping "${p.name}": at least one image required`)
-        skipped++
-        continue
-      }
-
+      // GESTION SÉCURISÉE DES IMAGES (Pas d'arrêt du script si vide ou échec)
       let imageUrls = []
-      try {
+      if (images.length === 0) {
+        imageUrls.push(PLACEHOLDER_IMAGE)
+      } else {
         for (const img of images.slice(0, 4)) {
-          imageUrls.push(await uploadImage(img))
+          try {
+            const url = await uploadImage(img)
+            imageUrls.push(url)
+          } catch (err) {
+            const trueError = err.message || (err.error && err.error.message) || "Erreur Cloudinary"
+            console.warn(`⚠️ Image passée en placeholder pour "${p.name}" (Raison: ${trueError})`)
+            imageUrls.push(PLACEHOLDER_IMAGE)
+          }
         }
-      } catch (err) {
-        console.warn(`Skipping "${p.name}": image upload failed -`, err.message)
-        skipped++
-        continue
       }
 
       const catKey = String(categoryId)
@@ -192,34 +211,10 @@ async function seed() {
     }
 
     const allCategories = await categoryModel.find({}).sort({ name: 1 }).lean()
-    if (allCategories.length === 0) {
-      console.log('No categories found in DB. Automatically creating categories based on JSON data...')
-    }
-
-    const globalTemplate = (() => {
-      const firstWithData = Object.values(preparedByCategory).flat()[0]
-      return firstWithData || null
-    })()
-
-    if (!globalTemplate) {
-      console.log('No valid products to insert.')
-      console.log(`Skipped: ${skipped}`)
-      return
-    }
-
-    // Si la DB est vide au niveau des catégories, on récupère celles créées à la volée
     const activeCategories = allCategories.length > 0 ? allCategories : await categoryModel.find({}).lean()
 
     const categoryNameById = {}
     for (const c of activeCategories) categoryNameById[String(c._id)] = c.name
-
-    const subsByCategory = {}
-    const allSubs = await subcategoryModel.find({}).lean()
-    for (const s of allSubs) {
-      const cid = String(s.categoryId)
-      if (!subsByCategory[cid]) subsByCategory[cid] = []
-      subsByCategory[cid].push(s)
-    }
 
     let createdCount = 0
     for (const cat of activeCategories) {
@@ -234,7 +229,7 @@ async function seed() {
           toInsert.push(buildProductDocument(t))
         }
         
-        // Système de remplissage automatique si la catégorie contient moins que MIN_PRODUCTS_PER_CATEGORY (10)
+        // Système de duplication automatique si la catégorie contient moins de 10 articles
         const missing = MIN_PRODUCTS_PER_CATEGORY - toInsert.length
         if (missing > 0 && templates.length > 0) {
           for (let i = 0; i < missing; i++) {

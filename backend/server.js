@@ -24,7 +24,7 @@ const app = express()
 const port = process.env.PORT || 4000
 connectDB()
 connectCloudinary()
-
+const path = require('path');
 // Security: Helmet (security headers)
 app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }))
 
@@ -48,7 +48,7 @@ const authLimiter = rateLimit({
 app.use('/api/user/login', authLimiter)
 app.use('/api/user/admin', authLimiter)
 app.use('/api/user/register', authLimiter)
-
+app.use('/public', express.static(path.join(__dirname, 'public')));
 const newsletterSubscribeLimiter = rateLimit({
     windowMs: 15 * 60 * 1000,
     max: 5,
