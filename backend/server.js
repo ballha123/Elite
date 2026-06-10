@@ -24,7 +24,7 @@ const app = express()
 const port = process.env.PORT || 4000
 connectDB()
 connectCloudinary()
-const path = require('path');
+
 // Security: Helmet (security headers)
 app.use(helmet({ crossOriginResourcePolicy: { policy: 'cross-origin' } }))
 
