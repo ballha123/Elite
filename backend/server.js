@@ -4,6 +4,9 @@ import helmet from 'helmet'
 import rateLimit from 'express-rate-limit'
 import morgan from 'morgan'
 import 'dotenv/config'
+import path from 'path'                      // 🆕 AJOUT : Import du module path
+import { fileURLToPath } from 'url'          // 🆕 AJOUT : Import pour recréer __dirname
+
 import { validateEnv, getCorsOrigins } from './config/env.js'
 import connectDB from './config/mongodb.js'
 import connectCloudinary from './config/cloudinary.js'
@@ -17,10 +20,14 @@ import favoriteRouter from './routes/favoriteRoute.js'
 import newsletterRouter from './routes/newsletterRoute.js'
 import heroRouter from './routes/heroRoute.js'
 
+// 🆕 AJOUT : Recréation de __dirname indispensable en ES Modules
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+
 validateEnv()
 
 // App Config
 const app = express()
+// ... (le reste de ton code reste exactement le même)
 const port = process.env.PORT || 4000
 connectDB()
 connectCloudinary()
