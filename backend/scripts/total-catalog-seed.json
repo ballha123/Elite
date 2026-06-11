@@ -1,756 +1,650 @@
 [
-{
-"name": "Chauffe-Cire Classique Elite Bleu",
-"description": "Le chauffe-cire classique indispensable pour une routine d'épilation simple, rapide et efficace à domicile. Conçu avec une cuve robuste de haute qualité, il assure une chauffe rapide et homogène de tout type de cire.",
-"price": 45.00,
-"newPrice": 39.00,
-"image": ["https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?q=80&w=600"],
-"category": "Épilation",
-"subCategory": "Chauffe-Cire",
-"colors": ["Blanc/Bleu"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Chauffe-Cire Digital Elite Pro Black",
-"description": "Prenez le contrôle total de votre épilation grâce à ce chauffe-cire numérique intelligent. Doté d'un écran LED haute définition, il affiche la température en temps réel pour un réglage ultra-précis.",
-"price": 89.00,
-"newPrice": 79.00,
-"image": ["https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=600"],
-"category": "Épilation",
-"subCategory": "Chauffe-Cire",
-"colors": ["Noir"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Chauffe-Cartouche Cire Solo Elite SM-65",
-"description": "L'appareil idéal pour une épilation ciblée et impeccable sans le moindre effort. Ce chauffe-cartouche roll-on individuel maintient la cire à température constante.",
-"price": 25.00,
-"newPrice": 19.90,
-"image": ["https://images.unsplash.com/photo-1515688594390-b649af70d282?q=80&w=600"],
-"category": "Épilation",
-"subCategory": "Chauffe-Cire",
-"colors": ["Blanc/Bleu"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Chauffe-Cartouche Double Station Elite SM-66",
-"description": "Gagnez du temps et profitez d'une épilation fluide avec notre station double chauffe-cartouches. Conçue avec deux bases de chargement indépendantes.",
-"price": 49.00,
-"newPrice": 42.00,
-"image": ["https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=600"],
-"category": "Épilation",
-"subCategory": "Chauffe-Cire",
-"colors": ["Blanc/Bleu"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Station Triple Chauffe-Cartouche Elite",
-"description": "Le must-have absolu pour les professionnels de l'esthétique et les instituts à fort trafic. Cette base triple vous permet de garder 3 cartouches de cire chaudes.",
-"price": 69.00,
-"newPrice": 59.00,
-"image": ["https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=600"],
-"category": "Épilation",
-"subCategory": "Chauffe-Cire",
-"colors": ["Blanc/Bleu"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Chauffe-Cire Pro Cuve Unique Inox Elite",
-"description": "Appareil d'épilation professionnel de grande capacité, idéal pour les instituts de beauté et salons de coiffure. Équipé d'une structure robuste.",
-"price": 120.00,
-"newPrice": 99.00,
-"image": ["https://images.unsplash.com/photo-1519735777090-ec97162ec268?q=80&w=600"],
-"category": "Épilation",
-"subCategory": "Chauffe-Cire",
-"colors": ["Blanc/Métal"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Chauffe-Cire Pro Double Cuve Elite Multi-Wax",
-"description": "La référence ultime pour les esthéticiennes professionnelles. Cet appareil haut de gamme dispose de deux cuves de chauffage indépendantes avec thermostats séparés.",
-"price": 189.00,
-"newPrice": 169.00,
-"image": ["https://images.unsplash.com/photo-1522335789203-aabd9fc54bc9?q=80&w=600"],
-"category": "Épilation",
-"subCategory": "Chauffe-Cire",
-"colors": ["Blanc/Métal"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Kit de Voyage XXL - 11 Pièces",
-"description": "Ensemble complet de flacons, sprays et pots réutilisables avec trousse transparente étanche. Idéal pour voyager léger.",
-"price": 25.00,
-"newPrice": 19.90,
-"image": ["https://images.unsplash.com/photo-1521223869279-3079b5371bc9?q=80&w=600"],
-"category": "Accessoires",
-"subCategory": "Flacons",
-"colors": ["Mélange"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Kit Flacons de Voyage M&Y - 6 Pièces",
-"description": "Kit de 6 pièces comprenant des flacons à pompe et sprays, idéal pour le shampoing et lotions liquides.",
-"price": 18.00,
-"newPrice": 14.50,
-"image": ["https://images.unsplash.com/photo-1571781926291-c477ebfd024b?q=80&w=600"],
-"category": "Accessoires",
-"subCategory": "Flacons",
-"colors": ["Rose"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Kit Flacons de Voyage Compact - 4 Pièces",
-"description": "Mini kit essentiel de 4 pièces avec flacons à pression simples et spray. Format minimaliste cabine.",
-"price": 12.00,
-"newPrice": 9.90,
-"image": ["https://images.unsplash.com/photo-1608248597481-496100c8c836?q=80&w=600"],
-"category": "Accessoires",
-"subCategory": "Flacons",
-"colors": ["Rose"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Kit Flacons de Voyage - 7 Pièces (Violet)",
-"description": "Kit complet de 7 flacons et contenants cosmétiques avec une couleur violette élégante.",
-"price": 19.00,
-"newPrice": 15.00,
-"image": ["https://images.unsplash.com/photo-1617897903246-719242758050?q=80&w=600"],
-"category": "Accessoires",
-"subCategory": "Flacons",
-"colors": ["Violet"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Flacons de Voyage Silicone - Pack de 4 Pastel",
-"description": "Bouteilles de voyage haut de gamme en silicone médical souple, étanches et rechargeables.",
-"price": 22.00,
-"newPrice": 18.50,
-"image": ["https://images.unsplash.com/photo-1526947425960-945c6e72858f?q=80&w=600"],
-"category": "Accessoires",
-"subCategory": "Flacons",
-"colors": ["Pastel Multi"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Flacons de Voyage Silicone - Pack de 4 Classic",
-"description": "Design moderne et minimaliste pour ces 4 flacons de voyage en silicone premium. Anti-fuite.",
-"price": 22.00,
-"newPrice": 18.50,
-"image": ["https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600"],
-"category": "Accessoires",
-"subCategory": "Flacons",
-"colors": ["Classic Multi"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Pack Rasoirs de Précision Sourcils Elite Flamingo",
-"description": "Redéfinissez votre regard en quelques secondes avec ce pack de 3 rasoirs à sourcils de précision style Flamingo.",
-"price": 9.00,
-"newPrice": 6.50,
-"image": ["https://images.unsplash.com/photo-1626015713026-d8309cdc1162?q=80&w=600"],
-"category": "Regard",
-"subCategory": "Rasoirs",
-"colors": ["Orange", "Violet", "Rose"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Set de 3 Rasoirs Beauté Kaili Pastel Soft",
-"description": "Éliminez le duvet du visage avec une douceur extrême. Idéal pour la technique du dermaplaning à domicile.",
-"price": 8.00,
-"newPrice": 5.90,
-"image": ["https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=600"],
-"category": "Regard",
-"subCategory": "Rasoirs",
-"colors": ["Rose", "Bleu", "Blanc"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Set Rasoirs Visage Kaili Purple Touch (3 pcs)",
-"description": "Dessinez vos sourcils avec la précision d'un professionnel. Ce lot de 3 rasoirs Kaili ergonomiques vous garantit un tracé net.",
-"price": 8.00,
-"newPrice": 5.90,
-"image": ["https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=600"],
-"category": "Regard",
-"subCategory": "Rasoirs",
-"colors": ["Mauve", "Rose", "Bleu Ciel"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Rasoirs Pins de Précision Kaili Classic Mint (3 pcs)",
-"description": "Le secret d'une peau de bébé et d'un teint glowy. Ces rasoirs de haute précision glissent délicatement sans irriter.",
-"price": 8.00,
-"newPrice": 5.90,
-"image": ["https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=600"],
-"category": "Regard",
-"subCategory": "Rasoirs",
-"colors": ["Vert", "Rose", "Bleu"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Appareil Manucure Rotatif M13 Mini",
-"description": "Ponceuse et polisseuse à ongles compacte M13, idéale pour façonner les ongles en gel ou résine avec précision.",
-"price": 35.00,
-"image": ["https://images.unsplash.com/photo-1604654894610-df49068845f4?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Appareils",
-"colors": ["Rose", "Violet", "Blanc"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Adaptateur Secteur Fast Charger 4A",
-"description": "Bloc d'alimentation de remplacement haute capacité 4A, compatible avec les lampes UV/LED professionnelles.",
-"price": 15.00,
-"image": ["https://images.unsplash.com/photo-1622445275463-afa2ab738c34?q=80&w=600"],
-"category": "Accessoires",
-"subCategory": "Électronique",
-"colors": ["Noir"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Lampe UV/LED Professionnelle SUN-X11 Max",
-"description": "Technologie double source lumineuse haute puissance pour catalyser tous les types de gels et vernis semi-permanents.",
-"price": 75.00,
-"newPrice": 65.00,
-"image": ["https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Lampes",
-"colors": ["Blanc"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Mini Lampe Sphérique UV/LED SUN-S7",
-"description": "Un design rond ultra-mignon et compact pour cette mini lampe de séchage rapide. Parfaite en déplacement.",
-"price": 30.00,
-"image": ["https://images.unsplash.com/photo-1604941097474-9313d7de8852?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Lampes",
-"colors": ["Rose Pastel", "Noir", "Blanc"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Lampe UV/LED Premium Design SUN-L2 Gold",
-"description": "L'élégance s'invite dans votre salon avec la SUN-L2 dotée de finitions dorées et d'un affichage digital floral.",
-"price": 85.00,
-"image": ["https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Lampes",
-"colors": ["Blanc/Or"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Trousse Holographique Soft Cosmetics Case",
-"description": "Trousse à maquillage souple aux reflets nacrés et irisés. Imperméable et spacieuse.",
-"price": 28.00,
-"image": ["https://images.unsplash.com/photo-1522335789203-aabd9fc54bc9?q=80&w=600"],
-"category": "Accessoires",
-"subCategory": "Vanities",
-"colors": ["Holographique"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Organisateur Compact de Pinceaux & Maquillage",
-"description": "Pochette de rangement noire zippée avec fentes élastiques intérieures dédiées aux pinceaux.",
-"price": 20.00,
-"image": ["https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=600"],
-"category": "Accessoires",
-"subCategory": "Vanities",
-"colors": ["Noir"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Mallette de Maquillage Rigide Pro Red Métal",
-"description": "Véritable vanity rigide de style professionnel en aluminium rouge rainuré. Équipée de compartiments à étages.",
-"price": 95.00,
-"newPrice": 85.00,
-"image": ["https://images.unsplash.com/photo-1608248597481-496100c8c836?q=80&w=600"],
-"category": "Accessoires",
-"subCategory": "Vanities",
-"colors": ["Rouge Métal"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Vanity Organisateur Rigide Pink Mirror",
-"description": "Boîte de rangement beauté rose poudré avec séparateurs amovibles et un miroir intégré sous le couvercle.",
-"price": 45.00,
-"image": ["https://images.unsplash.com/photo-1527632919775-6d3affb64bc8?q=80&w=600"],
-"category": "Accessoires",
-"subCategory": "Vanities",
-"colors": ["Rose Poudré"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Appareil de Massage Cou & Visage EMS LED Light",
-"description": "Masseur ergonomique anti-âge utilisant la technologie des micro-courants EMS et la thérapie par lumière LED.",
-"price": 65.00,
-"newPrice": 49.00,
-"image": ["https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=600"],
-"category": "Soin",
-"subCategory": "Appareils Visage",
-"colors": ["Blanc/Rouge"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Épingles à Cheveux Bobby Pins Pro - Boîte Bulk",
-"description": "Grande boîte d'épingles à cheveux noires plates de qualité salon. Idéales pour fixer solidement les chignons.",
-"price": 8.00,
-"image": ["https://images.unsplash.com/photo-1590156546946-ce55a12a63ee?q=80&w=600"],
-"category": "Coiffure",
-"subCategory": "Accessoires",
-"colors": ["Noir"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Élastiques à Cheveux Fins - Pack Multi-Stretch",
-"description": "Pochette de mini élastiques noirs haute résistance, parfaits pour attacher les petites mèches.",
-"price": 5.00,
-"image": ["https://images.unsplash.com/photo-1606131731447-49622111568f?q=80&w=600"],
-"category": "Coiffure",
-"subCategory": "Accessoires",
-"colors": ["Noir"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Bonnet de Nuit en Satin Premium Wide Band",
-"description": "Bonnet en satin doté d'un large bandeau élastique confortable. Protège les cheveux des frictions nocturnes.",
-"price": 18.00,
-"image": ["https://images.unsplash.com/photo-1576243345690-4e4b79b63288?q=80&w=600"],
-"category": "Coiffure",
-"subCategory": "Accessoires",
-"colors": ["Bordeaux", "Noir"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Pinces Crabes Sectionnantes - Lot de Papillons",
-"description": "Lot de pinces de séparation professionnelles en plastique noir et blanc pour maintenir fermement les cheveux.",
-"price": 7.00,
-"image": ["https://images.unsplash.com/photo-1631730359575-38e4755d772b?q=80&w=600"],
-"category": "Coiffure",
-"subCategory": "Accessoires",
-"colors": ["Noir & Blanc"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Kit d'Embouts de Ponceuse DH-1 Pro Precision",
-"description": "Set de 5 embouts en céramique et carbure de tungstène de haute qualité avec socle de protection rose.",
-"price": 24.00,
-"image": ["https://images.unsplash.com/photo-1604654894610-df49068845f4?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Embouts",
-"colors": ["Socle Rose"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Kit d'Embouts Céramique DH-2 Cuticule Soft",
-"description": "Sélection d'embouts de ponceuse à tête affinée et sphérique, conçus pour nettoyer les cuticules.",
-"price": 24.00,
-"image": ["https://images.unsplash.com/photo-1604941097474-9313d7de8852?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Embouts",
-"colors": ["Socle Rose"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Kit d'Embouts Arc-en-Ciel DH-3 Plasma",
-"description": "Embouts professionnels avec revêtement plasma multicolore ultra-résistant pour le travail intensif.",
-"price": 26.00,
-"image": ["https://images.unsplash.com/photo-1519014816548-bf5fe059798b?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Embouts",
-"colors": ["Socle Rose"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Mini Blocs Limes Spongieuses HM1 - Pack de 50",
-"description": "Mini buffers rectangulaires colorés double face pour matifier doucement l'ongle avant la pose. Format mini.",
-"price": 12.00,
-"image": ["https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Limes & Buffers",
-"colors": ["Multicolore"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Mini Limes Bananes Matifiantes HM2 - Pack Solo Yellow",
-"description": "Limes éponges douces de forme ergonomique allongée jaune pour lisser le contour des cuticules.",
-"price": 10.00,
-"image": ["https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Limes & Buffers",
-"colors": ["Jaune"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Set de Pinceaux Nail Art B1 - Manches Bois Pro",
-"description": "Assortiment de pinceaux fins de précision pour la construction en gel et les designs de Nail Art fins.",
-"price": 18.00,
-"image": ["https://images.unsplash.com/photo-1522335789203-aabd9fc54bc9?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Pinceaux",
-"colors": ["Bois Naturel"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Ponceuse Digitale Professionnelle SUN-QY-11",
-"description": "Station de ponçage haut de gamme au design rectangulaire moderne. Équipée d'un moteur silencieux.",
-"price": 135.00,
-"newPrice": 115.00,
-"image": ["https://images.unsplash.com/photo-1596462502278-27bfdc403348?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Ponceuses",
-"colors": ["Argent Métal", "Or Rose", "Noir"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Ponceuse de Table Compacte SUN-QY-10",
-"description": "Format sphérique compact élégant pour cette ponceuse performante. Vitesse réglable via potentiomètre.",
-"price": 110.00,
-"image": ["https://images.unsplash.com/photo-1608248597481-496100c8c836?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Ponceuses",
-"colors": ["Blanc", "Rose", "Mauve"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Ponceuse Ergonomique M1 Sander Sphérique",
-"description": "Appareil de ponçage au design incurvé futuriste. Écran LED affichant la vitesse en temps réel.",
-"price": 95.00,
-"image": ["https://images.unsplash.com/photo-1620916566398-39f1143ab7be?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Ponceuses",
-"colors": ["Blanc/Chrome"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Mini Ponceuse Design M3 Glossy Pink",
-"description": "Une mini station de ponçage ultra-mignonne rose et noire. Parfaite pour un usage à domicile performant.",
-"price": 65.00,
-"image": ["https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Ponceuses",
-"colors": ["Rose/Noir"],
-"inStock": true,
-"bestseller": false
-},
-{
-"name": "Station Heavy Duty Nail Drill M12",
-"description": "Le monstre de puissance de la gamme Elite. Livrée avec une pédale de contrôle au pied.",
-"price": 150.00,
-"newPrice": 129.00,
-"image": ["https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?q=80&w=600"],
-"category": "Onglerie",
-"subCategory": "Ponceuses",
-"colors": ["Or Noir"],
-"inStock": true,
-"bestseller": true
-},
-{
-"name": "Salon Supplies - Aimants Cat Eye 5-in-1",
-"description": "Aimants puissants multifonctions pour effets de gel œil de chat (Cat Eye).",
-"price": 15.00,
-"category": "Salon Supplies",
-"image": ["public/products/salon-supplies.jpg"],
-"inStock": true,
-"tag": "aimant-vernis-cat-eyes"
-},
-{
-"name": "Pince cil a cil & Ongles Adhésifs",
-"description": "Plaques d'adhésifs double-face premium pour faux ongles (Press-on nails) et applications de précision.",
-"price": 12.00,
-"category": "Salon Supplies",
-"image": ["public/products/pince-cil.jpg"],
-"inStock": true,
-"tag": "Colle stiker"
-},
-{
-"name": "El yaplikiw beha gel ala dhfor (Miss Nana)",
-"description": "Kit de pinceaux professionnels Miss Nana avec manches strassés pour l'application et le lissage du gel sur ongles.",
-"price": 35.00,
-"category": "Salon Supplies",
-"image": ["public/products/pinceaux-gel-application.jpg"],
-"inStock": true,
-"tag": "Kit panco gel"
-},
-{
-"name": "Yaplikiw beha gel design (Aoyasiyue)",
-"description": "Pinceaux liners de haute précision Aoyasiyue pour le nail art, les détails fins et les designs sur gel.",
-"price": 28.00,
-"category": "Salon Supplies",
-"image": ["public/products/pinceaux-gel-design.jpg"],
-"inStock": true,
-"tag": "Kit panco gel"
-},
-{
-"name": "Panco design (Pinceaux Poudre Premium)",
-"description": "Gamme de pinceaux à poudre et blush designs en forme de rose dorée et de coupes de champagne.",
-"price": 22.00,
-"category": "Salon Supplies",
-"image": ["public/products/pinceau-poudre-design.jpg"],
-"inStock": true,
-"tag": "Panceaux ongle"
-},
-{
-"name": "Pince a peau (Coupe-cuticules Professionnel)",
-"description": "Pince à cuticules haut de gamme en acier inoxydable avec revêtement en titane pour une coupe nette et durable.",
-"price": 18.00,
-"category": "Salon Supplies",
-"image": ["public/products/pince-a-peau.jpg"],
-"inStock": true,
-"tag": "Pouce citicule"
-},
-{
-"name": "Kit Pinceaux Gel Professionnel - Miss Nana",
-"description": "Kit de 6 pinceaux professionnels haut de gamme avec manches ornés de strass et spatules intégrées, idéal pour le modelage du gel et le nail art de précision.",
-"price": 25.00,
-"category": "Salon Supplies",
-"image": ["public/products/kit-pinceaux-gel-strass.jpg"],
-"inStock": true,
-"tag": "Kit panco gel"
-},
-{
-"name": "Kit Pinceaux Nail Art Fine Line - Aoyasiyue",
-"description": "Ensemble de 5 pinceaux de liner de différentes longueurs avec manches pailletés colorés. Parfait pour les détails ultra-fins et les traits de précision.",
-"price": 18.00,
-"category": "Salon Supplies",
-"image": ["public/products/kit-pinceaux-liner.jpg"],
-"inStock": true,
-"tag": "Kit panco gel"
-},
-{
-"name": "Pinceau Poudre Dépoussiéreur Élite - Modèle Rose Dorée",
-"description": "Magnifique gros pinceau en forme de rose avec manche doré, doté de poils ultra-doux. Idéal pour dépoussiérer les ongles après le limage ou pour l'application de la poudre.",
-"price": 14.50,
-"category": "Salon Supplies",
-"image": ["public/products/pinceau-ongle-rose.jpg"],
-"inStock": true,
-"tag": "Panceaux ongle"
-},
-{
-"name": "Pinceaux Dépoussiéreurs Cocktail Premium",
-"description": "Gamme de brosses de dépoussiérage pour ongles en forme de verres à cocktail élégants. Disponibles en plusieurs teintes vibrantes.",
-"price": 12.00,
-"category": "Salon Supplies",
-"image": ["public/products/pinceaux-ongles-cocktail.jpg"],
-"inStock": true,
-"tag": "Panceaux ongle"
-},
-{
-"name": "Ruban Adhésif Double Face Transparent (SK8110)",
-"description": "Rouleau de scotch double face transparent haute adhérence. Parfait pour fixer les capsules d'exposition ou les présentoirs de nail art.",
-"price": 6.50,
-"category": "Salon Supplies",
-"image": ["public/products/scotch-double-face.jpg"],
-"inStock": true,
-"tag": "Sckotsh double face"
-},
-{
-"name": "Stickers Adhésifs Double Face pour Capsules (GD6076)",
-"description": "Pack de 20 feuilles contenant au total 480 stickers adhésifs double face transparents, parfaits pour la pose rapide et temporaire de faux ongles / press-on nails.",
-"price": 8.00,
-"category": "Salon Supplies",
-"image": ["public/products/colle-sticker-ongles.jpg"],
-"inStock": true,
-"tag": "Colle stiker"
-},
-{
-"name": "Pince Coupe-Capsules & Coupe-Cuticules Professionnelle",
-"description": "Outil professionnel en acier inoxydable (Tin Coated) haute précision de la marque Paie/Vicky Nail. Offre une coupe nette et durable.",
-"price": 16.00,
-"category": "Salon Supplies",
-"image": ["public/products/coupe-capsule-professionnel.jpg"],
-"inStock": true,
-"tag": "Coupe capsule"
-},
-{
-"name": "Aimant Magnétique Cat Eye 5-en-1 (MG03)",
-"description": "Stylet aimanté haute puissance avec manche en bois foncé et embouts métalliques interchangeables. Permet de créer instantanément des effets magnétiques œil de chat (Cat Eye) sur vos vernis semi-permanents.",
-"price": 9.50,
-"category": "Salon Supplies",
-"image": ["public/products/aimant-vernis-cat-eyes.jpg"],
-"inStock": true,
-"tag": "Element vernis cat eyes"
-},
-{
-"name": "Aimant Magnétique Cat Eye Cylindrique",
-"description": "Aimant rond cylindrique puissant pour créer des effets de lignes et de vagues profondes sur les vernis semi-permanents Cat Eye.",
-"price": 6.00,
-"category": "Salon Supplies",
-"image": ["public/products/aimant-cat-eye-cylindrique.jpg"],
-"inStock": true,
-"tag": "aimant-vernis-cat-eyes"
-},
-{
-"name": "Aimant Magnétique Cat Eye Double Tête",
-"description": "Outil double embout combinant un aimant rectangulaire et un aimant rond pour varier les motifs œil de chat en un seul geste.",
-"price": 8.50,
-"category": "Salon Supplies",
-"image": ["public/products/aimant-cat-eye-double.jpg"],
-"inStock": true,
-"tag": "aimant-vernis-cat-eyes"
-},
-{
-"name": "Aimant Nail Art Cat Eye Motif Fleur",
-"description": "Aimant spécialisé conçu pour créer instantanément des motifs floraux et des étoiles géométriques sur les ongles.",
-"price": 7.00,
-"category": "Salon Supplies",
-"image": ["public/products/aimant-cat-eye-fleur.jpg"],
-"inStock": true,
-"tag": "aimant-vernis-cat-eyes"
-},
-{
-"name": "Aimant Rectangulaire Puissant Cat Eye",
-"description": "Aimant plat grand format à forte réactivité magnétique pour un dégradé parfait et un effect œil de chat classique ultra-net.",
-"price": 5.50,
-"category": "Salon Supplies",
-"image": ["public/products/aimant-cat-eye-rectangulaire.jpg"],
-"inStock": true,
-"tag": "aimant-vernis-cat-eyes"
-},
-{
-"name": "Stylet Magnétique Précision Cat Eye",
-"description": "Stylet fin doté d'une pointe aimantée pour dessiner des lignes personnalisées, des vagues et faire du nail art magnétique sur mesure.",
-"price": 7.50,
-"category": "Salon Supplies",
-"image": ["public/products/stylet-aimant-cat-eye.jpg"],
-"inStock": true,
-"tag": "aimant-vernis-cat-eyes"
-},
-{
-"name": "Pousse-Cuticule Professionnel en Acier Inoxydable",
-"description": "Outil de manucure double face en acier inoxydable de haute qualité pour repousser proprement les cuticules et nettoyer les contours de l'ongle.",
-"price": 11.00,
-"category": "Salon Supplies",
-"image": ["public/products/pousse-cuticule-acier.jpg"],
-"inStock": true,
-"tag": "Pouce citicule"
-},
-{
-"name": "Bâtonnets de Buis pour Cuticules (Lot)",
-"description": "Pack de bâtonnets en bois d'oranger à double extrémité (une pointe et un côté biseauté) indispensables pour la préparation de l'ongle et le nail art.",
-"price": 4.50,
-"category": "Salon Supplies",
-"image": ["public/products/batonnets-bois-cuticules.jpg"],
-"inStock": true,
-"tag": "Battone en bois"
-},
-{
-"name": "Spatules en Bois pour Application de Cire (Lot)",
-"description": "Grandes spatules en bois jetables de qualité professionnelle, idéales pour une application fluide, précise et hygiénique de la cire chaude ou tiède en institut.",
-"price": 9.00,
-"category": "Salon Supplies",
-"image": ["public/products/spatules-bois-cire.jpg"],
-"inStock": true,
-"tag": "Spatule cir"
-},
-{
-"name": "Mini Limes à Ongles Jetables (Lot)",
-"description": "Mini limes à ongles double face, idéales pour façonner la forme de l'ongle. Format jetable parfait pour garantir une hygiène irréprochable à chaque cliente en salon.",
-"price": 4.50,
-"category": "Salon Supplies",
-"image": ["public/products/mini-limes.jpg"],
-"inStock": true,
-"tag": "Lime sghir"
-},
-{
-"name": "Cotons Non Pelucheux dégraissants (Lint-Free)",
-"description": "Carrés de coton spéciaux qui ne peluchent pas. Parfaits pour nettoyer l'ongle, enlever la couche collante (inhibante) du gel après catalyse ou retirer le vernis.",
-"price": 8.50,
-"category": "Salon Supplies",
-"image": ["public/products/coton-ongles-nettoyant.jpg"],
-"inStock": true,
-"tag": "Cotton ynadhfou bih"
-},
-{
-"name": "Petites Spatules en Bois pour Cire Faciale",
-"description": "Bâtonnets applicateurs fins en bois pour une épilation précise des zones délicates du visage comme les sourcils ou le duvet supérieur.",
-"price": 5.00,
-"category": "Salon Supplies",
-"image": ["public/products/petites-spatules-cire.jpg"],
-"inStock": true,
-"tag": "3weda mta cir"
-},
-{
-"name": "Bloc Polissoir Blanc Professionnel (Buffer)",
-"description": "Bloc polissoir 4 faces haute qualité pour matifier la plaque de l'ongle naturel avant la pose ou lisser les imperfections du gel et de l'acrylique.",
-"price": 2.50,
-"category": "Salon Supplies",
-"image": ["public/products/bloc-polissoir.jpg"],
-"inStock": true,
-"tag": "Block polisoire"
-},
-{
-"name": "Séparateurs de Doigts pour Mains en Mousse",
-"description": "Paire de séparateurs souples en mousse pour maintenir les doigts écartés de manière confortable durant l'application du vernis ou du nail art.",
-"price": 3.00,
-"category": "Salon Supplies",
-"image": ["public/products/separateur-doigts.jpg"],
-"inStock": true,
-"tag": "Ceparateur ongle ydin"
-},
-{
-"name": "Séparateurs d'Orteils pour Pédicure",
-"description": "Paire de séparateurs d'orteils ergonomiques en mousse résistante, indispensables pour réaliser des pédicures propres sans bavures.",
-"price": 3.50,
-"category": "Salon Supplies",
-"image": ["public/products/separateur-orteils.jpg"],
-"inStock": true,
-"tag": "Ceparateur ongle pied"
-},
-{
-"name": "Gants de Protection Anti-UV pour Lampe LED",
-"description": "Gants spécialisés bloquant les rayons UV/LED des lampes de manucure. Protègent efficacement la peau des mains du vieillissement cutané et du dessèchement.",
-"price": 14.00,
-"category": "Salon Supplies",
-"image": ["public/products/gants-protection-uv.jpg"],
-"inStock": true,
-"tag": "Glove mta dhwefer tehmi l yed m led"
-},
-{
-"name": "Manchons Abrasifs pour Ponceuse (Sanding Bands)",
-"description": "Lot de rouleaux de ponçage interchangeables de différents grains, compatibles avec les embouts mandrins standards des ponceuses à ongles.",
-"price": 12.50,
-"category": "Salon Supplies",
-"image": ["public/products/manchons-ponceuse-ongles.jpg"],
-"inStock": true,
-"tag": "Element machine nail drill"
-}
+  {
+    "name": "Salon Supplies - Aimants Cat Eye 5-in-1",
+    "description": "Aimants puissants multifonctions pour effets de gel œil de chat (Cat Eye).",
+    "price": 15.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/salon-supplies.jpg"],
+    "inStock": true,
+    "tag": "aimant-vernis-cat-eyes"
+  },
+  {
+    "name": "Pince cil a cil & Ongles Adhésifs",
+    "description": "Plaques d'adhésifs double-face premium pour faux ongles (Press-on nails) et applications de précision.",
+    "price": 12.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/pince-cil.jpg"],
+    "inStock": true,
+    "tag": "Colle stiker"
+  },
+  {
+    "name": "El yaplikiw beha gel ala dhfor (Miss Nana)",
+    "description": "Kit de pinceaux professionnels Miss Nana avec manches strassés pour l'application et le lissage du gel sur ongles.",
+    "price": 35.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/pinceaux-gel-application.jpg"],
+    "inStock": true,
+    "tag": "Kit panco gel"
+  },
+  {
+    "name": "Yaplikiw beha gel design (Aoyasiyue)",
+    "description": "Pinceaux liners de haute précision Aoyasiyue pour le nail art, les détails fins and les designs sur gel.",
+    "price": 28.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/pinceaux-gel-design.jpg"],
+    "inStock": true,
+    "tag": "Kit panco gel"
+  },
+  {
+    "name": "Panco design (Pinceaux Poudre Premium)",
+    "description": "Gamme de pinceaux à poudre et blush designs en forme de rose dorée et de coupes de champagne.",
+    "price": 22.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/pinceau-poudre-design.jpg"],
+    "inStock": true,
+    "tag": "Panceaux ongle"
+  },
+  {
+    "name": "Pince a peau (Coupe-cuticules Professionnel)",
+    "description": "Pince à cuticules haut de gamme en acier inoxydable avec revêtement en titane pour une coupe nette et durable.",
+    "price": 18.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/pince-a-peau.jpg"],
+    "inStock": true,
+    "tag": "Pouce citicule"
+  },
+  {
+    "name": "Kit Pinceaux Gel Professionnel - Miss Nana",
+    "description": "Kit de 6 pinceaux professionnels haut de gamme avec manches ornés de strass et spatules intégrées, idéal pour le modelage du gel et le nail art de précision.",
+    "price": 25.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/kit-pinceaux-gel-strass.jpg"],
+    "inStock": true,
+    "tag": "Kit panco gel"
+  },
+  {
+    "name": "Kit Pinceaux Nail Art Fine Line - Aoyasiyue",
+    "description": "Ensemble de 5 pinceaux de liner de différentes longueurs avec manches pailletés colorés. Parfait pour les détails ultra-fins et les traits de précision.",
+    "price": 18.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/kit-pinceaux-liner.jpg"],
+    "inStock": true,
+    "tag": "Kit panco gel"
+  },
+  {
+    "name": "Pinceau Poudre Dépoussiéreur Élite - Modèle Rose Dorée",
+    "description": "Magnifique gros pinceau en forme de rose avec manche doré, doté de poils ultra-doux. Idéal pour dépoussiérer les ongles après le limage ou pour l'application de la poudre.",
+    "price": 14.50,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/pinceau-ongle-rose.jpg"],
+    "inStock": true,
+    "tag": "Panceaux ongle"
+  },
+  {
+    "name": "Pinceaux Dépoussiéreurs Cocktail Premium",
+    "description": "Gamme de brosses de dépoussiérage pour ongles en forme de verres à cocktail élégants. Disponibles en plusieurs teintes vibrantes.",
+    "price": 12.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/pinceaux-ongles-cocktail.jpg"],
+    "inStock": true,
+    "tag": "Panceaux ongle"
+  },
+  {
+    "name": "Ruban Adhésif Double Face Transparent (SK8110)",
+    "description": "Rouleau de scotch double face transparent haute adhérence. Parfait pour fixer les capsules d'exposition ou les présentoirs de nail art.",
+    "price": 6.50,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/scotch-double-face.jpg"],
+    "inStock": true,
+    "tag": "Sckotsh double face"
+  },
+  {
+    "name": "Stickers Adhésifs Double Face pour Capsules (GD6076)",
+    "description": "Pack de 20 feuilles contenant au total 480 stickers adhésifs double face transparents, parfaits pour la pose rapide et temporaire de faux ongles / press-on nails.",
+    "price": 8.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/colle-sticker-ongles.jpg"],
+    "inStock": true,
+    "tag": "Colle stiker"
+  },
+  {
+    "name": "Pince Coupe-Capsules & Coupe-Cuticules Professionnelle",
+    "description": "Outil professionnel en acier inoxydable (Tin Coated) haute précision de la marque Paie/Vicky Nail. Offre une coupe nette et durable.",
+    "price": 16.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/coupe-capsule-professionnel.jpg"],
+    "inStock": true,
+    "tag": "Coupe capsule"
+  },
+  {
+    "name": "Aimant Magnétique Cat Eye 5-en-1 (MG03)",
+    "description": "Stylet aimanté haute puissance avec manche en bois foncé et embouts métalliques interchangeables. Permet de créer instantanément des effets magnétiques œil de chat (Cat Eye) sur vos vernis semi-permanents.",
+    "price": 9.50,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/aimant-vernis-cat-eyes.jpg"],
+    "inStock": true,
+    "tag": "Element vernis cat eyes"
+  },
+  {
+    "name": "Aimant Magnétique Cat Eye Cylindrique",
+    "description": "Aimant rond cylindrique puissant pour créer des effets de lignes et de vagues profondes sur les vernis semi-permanents Cat Eye.",
+    "price": 6.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/aimant-cat-eye-cylindrique.jpg"],
+    "inStock": true,
+    "tag": "aimant-vernis-cat-eyes"
+  },
+  {
+    "name": "Aimant Magnétique Cat Eye Double Tête",
+    "description": "Outil double embout combinant un aimant rectangulaire et un aimant rond pour varier les motifs œil de chat en un seul geste.",
+    "price": 8.50,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/aimant-cat-eye-double.jpg"],
+    "inStock": true,
+    "tag": "aimant-vernis-cat-eyes"
+  },
+  {
+    "name": "Aimant Nail Art Cat Eye Motif Fleur",
+    "description": "Aimant spécialisé conçu pour créer instantanément des motifs floraux et des étoiles géométriques sur les ongles.",
+    "price": 7.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/aimant-cat-eye-fleur.jpg"],
+    "inStock": true,
+    "tag": "aimant-vernis-cat-eyes"
+  },
+  {
+    "name": "Aimant Rectangulaire Puissant Cat Eye",
+    "description": "Aimant plat grand format à forte réactivité magnétique pour un dégradé parfait et un effect œil de chat classique ultra-net.",
+    "price": 5.50,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/aimant-cat-eye-rectangulaire.jpg"],
+    "inStock": true,
+    "tag": "aimant-vernis-cat-eyes"
+  },
+  {
+    "name": "Stylet Magnétique Précision Cat Eye",
+    "description": "Stylet fin doté d'une pointe aimantée pour dessiner des lignes personnalisées, des vagues et faire du nail art magnétique sur mesure.",
+    "price": 7.50,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/stylet-aimant-cat-eye.jpg"],
+    "inStock": true,
+    "tag": "aimant-vernis-cat-eyes"
+  },
+  {
+    "name": "Pousse-Cuticule Professionnel en Acier Inoxydable",
+    "description": "Outil de manucure double face en acier inoxydable de haute qualité pour repousser proprement les cuticules et nettoyer les contours de l'ongle.",
+    "price": 11.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/pousse-cuticule-acier.jpg"],
+    "inStock": true,
+    "tag": "Pouce citicule"
+  },
+  {
+    "name": "Bâtonnets de Buis pour Cuticules (Lot)",
+    "description": "Pack de bâtonnets en bois d'oranger à double extrémité (une pointe et un côté biseauté) indispensables pour la préparation de l'ongle et le nail art.",
+    "price": 4.50,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/batonnets-bois-cuticules.jpg"],
+    "inStock": true,
+    "tag": "Battone en bois"
+  },
+  {
+    "name": "Spatules en Bois pour Application de Cire (Lot)",
+    "description": "Grandes spatules en bois jetables de qualité professionnelle, idéales pour une application fluide, précise et hygiénique de la cire chaude ou tiède en institut.",
+    "price": 9.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/spatules-bois-cire.jpg"],
+    "inStock": true,
+    "tag": "Spatule cir"
+  },
+  {
+    "name": "Mini Limes à Ongles Jetables (Lot)",
+    "description": "Mini limes à ongles double face, idéales pour façonner la forme de l'ongle. Format jetable parfait pour garantir une hygiène irréprochable à chaque cliente en salon.",
+    "price": 4.50,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/mini-limes.jpg"],
+    "inStock": true,
+    "tag": "Lime sghir"
+  },
+  {
+    "name": "Cotons Non Pelucheux dégraissants (Lint-Free)",
+    "description": "Carrés de coton spéciaux qui ne peluchent pas. Parfaits pour nettoyer l'ongle, enlever la couche collante (inhibante) du gel après catalyse ou retirer le vernis.",
+    "price": 8.50,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/coton-ongles-nettoyant.jpg"],
+    "inStock": true,
+    "tag": "Cotton ynadhfou bih"
+  },
+  {
+    "name": "Petites Spatules en Bois pour Cire Faciale",
+    "description": "Bâtonnets applicateurs fins en bois pour une épilation précise des zones délicates du visage comme les sourcils ou le duvet supérieur.",
+    "price": 5.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/petites-spatules-cire.jpg"],
+    "inStock": true,
+    "tag": "3weda mta cir"
+  },
+  {
+    "name": "Bloc Polissoir Blanc Professionnel (Buffer)",
+    "description": "Bloc polissoir 4 faces haute qualité pour matifier la plaque de l'ongle naturel avant la pose ou lisser les imperfections du gel et de l'acrylique.",
+    "price": 2.50,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/bloc-polissoir.jpg"],
+    "inStock": true,
+    "tag": "Block polisoire"
+  },
+  {
+    "name": "Séparateurs de Doigts pour Mains en Mousse",
+    "description": "Paire de séparateurs souples en mousse pour maintenir les doigts écartés de manière confortable durant l'application du vernis ou du nail art.",
+    "price": 3.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/separateur-doigts.jpg"],
+    "inStock": true,
+    "tag": "Ceparateur ongle ydin"
+  },
+  {
+    "name": "Séparateurs d'Orteils pour Pédicure",
+    "description": "Paire de séparateurs d'orteils ergonomiques en mousse résistante, indispensables pour réaliser des pédicures propres sans bavures.",
+    "price": 3.50,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/separateur-orteils.jpg"],
+    "inStock": true,
+    "tag": "Ceparateur ongle pied"
+  },
+  {
+    "name": "Gants de Protection Anti-UV pour Lampe LED",
+    "description": "Gants spécialisés bloquant les rayons UV/LED des lampes de manucure. Protègent efficacement la peau des mains du vieillissement cutané et du dessèchement.",
+    "price": 14.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/gants-protection-uv.jpg"],
+    "inStock": true,
+    "tag": "Glove mta dhwefer tehmi l yed m led"
+  },
+  {
+    "name": "Manchons Abrasifs pour Ponceuse (Sanding Bands)",
+    "description": "Lot de rouleaux de ponçage interchangeables de différents grains, compatibles avec les embouts mandrins standards des ponceuses à ongles.",
+    "price": 12.50,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/manchons-ponceuse-ongles.jpg"],
+    "inStock": true,
+    "tag": "Element machine nail drill"
+  },
+  {
+    "name": "Lampe UV/LED Professionnelle SUN S5",
+    "description": "Lampe à ongles haute performance au design élégant avec finitions bleu métallisé. Équipée d'un écran digital et de 4 minuteries (dont un mode basse chaleur 99s) pour une polymérisation parfaite et sans douleur de tous vos gels et vernis semi-permanents.",
+    "price": 65.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-sun-s5.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Lampe UV/LED SUN S8-1 Édition Tigre",
+    "description": "Apportez une touche d'originalité à votre espace manucure avec cette lampe performante aux finitions dorées, surmontée d'un adorable motif tigre. Séchage rapide, uniforme et respectueux de la peau pour des ongles impeccables.",
+    "price": 55.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-sun-s8-1.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Lampe UV/LED Classique SUN 5",
+    "description": "Le best-seller incontournable des prothésistes ongulaires. Un design blanc minimaliste en dôme avec écran LCD intégré. Séchage ultra-rapide, capteur de mouvement automatique et confort de travail optimal.",
+    "price": 45.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-sun-5.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Lampe UV/LED Super SUN X5 MAX",
+    "description": "Puissance et espace maximisés pour les professionnelles exigeantes. Avec son liseré argenté élégant, son grand écran digital et ses LED réparties stratégiquement, elle garantit un séchage homogène sans aucune zone morte.",
+    "price": 75.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-sun-x5-max.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Lampe UV/LED SUN H5 Plus (96W)",
+    "description": "Lampe bicolore noir et blanc d'une puissance redoutable de 96W. Idéale pour catalyser les gels de construction épais en un temps record grâce à ses minuteries étendues allant jusqu'à 120 secondes.",
+    "price": 85.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-sun-h5-plus.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Lampe UV/LED SUN Q10 Rose Gold",
+    "description": "Un véritable bijou de technologie. Finition luxueuse beige et or rose avec des détails cloutés. Offre un séchage rapide, indolore et non-noircissant pour les mains. Parfaite pour sublimer un salon haut de gamme.",
+    "price": 95.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-sun-q10.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Lampe UV/LED SUN G11 Max",
+    "description": "Design futuriste avec un magnifique contour violet translucide. Spacieuse et puissante, elle catalyse tous types de vernis UV et LED rapidement tout en protégeant vos yeux et la peau de vos clientes.",
+    "price": 80.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-sun-g11-max.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Lampe UV/LED Ultra-Puissante SUN L5 (268W)",
+    "description": "Puissance extrême de 268W dans un format rectangulaire sophistiqué orné de strass. Conçue pour les salons à fort trafic, elle polymérise vos gels instantanément pour un gain de temps absolu sur vos poses.",
+    "price": 120.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-sun-l5.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Lampe UV/LED SUN S11 (268W)",
+    "description": "Esthétique moderne avec ses touches magenta et son écran central en forme de fleur. Avec ses 268W, elle offre une polymérisation express et sans faille, le tout équipé d'un détecteur de mouvement intelligent.",
+    "price": 110.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-sun-s11.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Lampe UV/LED SUN QY-7 Strass Star (268W)",
+    "description": "Brillez de mille feux avec cette lampe dotée d'une magnifique étoile en strass rose. Une puissance colossale de 268W combinée à un design glamour pour sublimer votre station de travail et éblouir vos clientes.",
+    "price": 125.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-sun-qy7.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Chauffe-Cire Professionnel Pro Wax 100",
+    "description": "Parfait pour faire fondre rapidement vos perles, galets ou pots de cire tiède et chaude. Équipé d'une cuve amovible en aluminium et d'un thermostat réglable pour maintenir la cire à température idéale d'épilation.",
+    "price": 35.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/chauffe-cire-pro-wax.jpg"],
+    "inStock": true,
+    "tag": "Chauffe Cire"
+  },
+  {
+    "name": "Mini Ponceuse Stylo Manucure & Pédicure",
+    "description": "Légère et ultra-maniable, cette ponceuse format stylo est idéale pour les débutantes, l'entretien des cuticules ou les petites retouches rapides à la maison. Livrée complète avec son kit d'embouts.",
+    "price": 25.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/ponceuse-stylo-rose.jpg"],
+    "inStock": true,
+    "tag": "Ponceuse Ongles"
+  },
+  {
+    "name": "Lampe UV/LED Haute Puissance SUN X7 Max",
+    "description": "Un design futuriste blanc brillant doté d'une poignée de transport super pratique. Ses capteurs automatiques et sa répartition de LED haute performance éliminent les zones mortes pour un séchage express de vos poses.",
+    "price": 70.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/sun-x7-max.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Ponceuse Nomade Rechargeable 35000 RPM",
+    "description": "Le choix ultime pour les prothésistes à domicile ou les salons modernes. Sans fil, légère et dotée d'un écran digital de contrôle, elle offre jusqu'à 35 000 tours/minute sans encombrer votre espace de câbles.",
+    "price": 110.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/ponceuse-portable-silver.jpg"],
+    "inStock": true,
+    "tag": "Ponceuse Ongles"
+  },
+  {
+    "name": "Mini Stérilisateur Express à Billes de Quartz",
+    "description": "Idéal pour désinfecter vos petits outils métalliques et embouts de ponceuse en moins de 30 secondes. Compact et ultra-rapide, il chauffe jusqu'à 250°C pour une hygiène parfaite entre deux clientes.",
+    "price": 45.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/sterilisateur-billes-quartz.jpg"],
+    "inStock": true,
+    "tag": "Sterilisateur"
+  },
+  {
+    "name": "Stérilisateur Thermique Haute Température CH-360T",
+    "description": "Le garant d'une hygiène irréprochable en institut. Ce stérilisateur à air chaud détruit 100% des bactéries sur vos outils en acier inoxydable (pinces, ciseaux, poussoirs) grâce à sa température réglable allant jusqu'à 220°C.",
+    "price": 95.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/sterilisateur-ch360t.jpg"],
+    "inStock": true,
+    "tag": "Sterilisateur"
+  },
+  {
+    "name": "Ponceuse de Table Professionnelle DM-202",
+    "description": "Idéale pour les manucures et pédicures régulières. Cette ponceuse robuste offre un contrôle total de la vitesse de rotation sans vibrations. Son design rose apporte une touche de peps à votre table de travail.",
+    "price": 55.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/ponceuse-dm202-rose.jpg"],
+    "inStock": true,
+    "tag": "Ponceuse Ongles"
+  },
+  {
+    "name": "Aspirateur de Table Ergonomique - 2 Ventilateurs",
+    "description": "Offrez un confort maximal à vos clientes avec son repose-main rembourré en similicuir. Équipé de 3 ventilateurs puissants, il aspire instantanément toutes les poussières de limage pour un espace de travail sain et propre.",
+    "price": 65.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/aspirateur-3-ventilos.jpg"],
+    "inStock": true,
+    "tag": "Aspirateur Poussiere"
+  },
+  {
+    "name": "Plaque de Stamping Métallique Motifs Nail Art",
+    "description": "Créez des designs complexes et précis en quelques secondes. Cette plaque en acier inoxydable de haute qualité présente des gravures profondes pour un transfert parfait des motifs (fleurs, lignes, arabesques) sur vos ongles.",
+    "price": 12.00,
+    "category": "Décoration & Nail Art",
+    "image": ["public/products/salon supplies/plaque-stamping.jpg"],
+    "inStock": true,
+    "tag": "Stamping Nail Art"
+  },
+  {
+    "name": "Tampon Translucide et Grattoir pour Stamping",
+    "description": "L'outil indispensable pour un stamping réussi. Sa tête en silicone ultra-souple et transparente vous permet de voir exactement où vous positionnez le motif sur l'ongle. Livré avec son racleur souple.",
+    "price": 8.00,
+    "category": "Décoration & Nail Art",
+    "image": ["public/products/salon supplies/tampon-stamping-transparent.jpg"],
+    "inStock": true,
+    "tag": "Stamping Nail Art"
+  },
+  {
+    "name": "Carrousel de Strass et Cristaux Multicolores",
+    "description": "Apportez une touche de brillance et de luxe à vos manucures. Cette boîte circulaire à compartiments contient une sélection variée de strass scintillants de différentes tailles et couleurs pour des créations Nail Art 3D uniques.",
+    "price": 15.00,
+    "category": "Décoration & Nail Art",
+    "image": ["public/products/salon supplies/carrousel-strass-ongles.jpg"],
+    "inStock": true,
+    "tag": "Bijoux Ongles"
+  },
+  {
+    "name": "Lot de Rubans Adhésifs Métallisés (Striping Tape)",
+    "description": "Idéal pour tracer des lignes géométriques parfaites et des designs modernes. Ces fils décoratifs autocollants et brillants s'appliquent facilement sur le vernis ou le gel avant la finition du Top Coat.",
+    "price": 10.00,
+    "category": "Décoration & Nail Art",
+    "image": ["public/products/salon supplies/striping-tape-lot.jpg"],
+    "inStock": true,
+    "tag": "Fils Decoratifs"
+  },
+  {
+    "name": "Pince à Cuticules Professionnelle en Acier Inoxydable",
+    "description": "Une découpe nette et précise pour une manucure impeccable. Conçue en acier inoxydable haute résistance, cette pince offre une excellente prise en main et des lames affûtées pour retirer les petites peaux sans douleur.",
+    "price": 22.00,
+    "category": "Matériel & Outillage",
+    "image": ["public/products/salon supplies/pince-cuticules-inox.jpg"],
+    "inStock": true,
+    "tag": "Outillage Manucure"
+  },
+  {
+    "name": "Coupe-Capsules Guillotine Professionnel Rose",
+    "description": "Coupez vos faux ongles et capsules proprement et sans risque de fissures. Sa lame en acier bien aiguisée permet une coupe droite, ronde ou en biais selon l'angle choisi. Robuste et ergonomique.",
+    "price": 18.00,
+    "category": "Matériel & Outillage",
+    "image": ["public/products/salon supplies/coupe-capsules-rose.jpg"],
+    "inStock": true,
+    "tag": "Outillage Manucure"
+  },
+  {
+    "name": "Repousse-Cuticules Double Embout en Inox",
+    "description": "L'outil de préparation de l'ongle par excellence. Un côté cuillère incurvé pour repousser délicatement les cuticules et agrandir la plaque de l'ongle, et un côté grattoir pour éliminer les résidus de peau tenaces.",
+    "price": 12.00,
+    "category": "Matériel & Outillage",
+    "image": ["public/products/salon supplies/repousse-cuticules-inox.jpg"],
+    "inStock": true,
+    "tag": "Outillage Manucure"
+  },
+  {
+    "name": "Petite Brosse à Ongles Manuelle Rose",
+    "description": "Indispensable pour nettoyer les ongles et éliminer instantanément les résidus de poussière après le limage ou le passage de la ponceuse. Poils souples en nylon et manche en plastique ergonomique.",
+    "price": 4.00,
+    "category": "Matériel & Outillage",
+    "image": ["public/products/salon supplies/brosse-ongles-rose.jpg"],
+    "inStock": true,
+    "tag": "Accessoires Manucure"
+  },
+  {
+    "name": "Nuancier Éventail Transparent pour Vernis",
+    "description": "Présentez vos couleurs et vos créations de Nail Art comme une professionnelle. Cet éventail transparent permet à vos clientes de visualiser directement le rendu des teintes sur leurs mains.",
+    "price": 14.00,
+    "category": "Matériel & Outillage",
+    "image": ["public/products/salon supplies/nuancier-eventail-transparent.jpg"],
+    "inStock": true,
+    "tag": "Accessoires Manucure"
+  },
+  {
+    "name": "Coussin Repose-Main Ergonomique Rose",
+    "description": "Garantissez un confort absolu à votre cliente tout au long de la pose. Ce repose-main en similicuir doux et rembourré surélève idéalement le poignet pour réduire la fatigue articulaire de la cliente et de la prothésiste.",
+    "price": 28.00,
+    "category": "Matériel & Outillage",
+    "image": ["public/products/salon supplies/coussin-repose-main-rose.jpg"],
+    "inStock": true,
+    "tag": "Accessoires Manucure"
+  },
+  {
+    "name": "Lampe de Table LED Demi-Lune (Half-Moon)",
+    "description": "L'éclairage ultime pour les poses complexes et le nail art. Son design en arc de cercle élimine toutes les ombres portées sur les mains de la cliente. Luminosité ajustable pour travailler avec une précision chirurgicale sans fatiguer vos yeux.",
+    "price": 115.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-demi-lune.jpg"],
+    "inStock": true,
+    "tag": "Eclairage"
+  },
+  {
+    "name": "Lot de Limes à Ongles Professionnelles 100/180",
+    "description": "Limes à ongles professionnelles double face (grain 100 pour le limage intensif et 180 pour la finition). Idéales pour façonner le gel, l'acrylique et préparer l'ongle naturel.",
+    "price": 10.00,
+    "category": "Matériel & Outillage",
+    "image": ["public/products/salon supplies/limes-professionnelles.jpg"],
+    "inStock": true,
+    "tag": "Limes & Chablons"
+  },
+  {
+    "name": "Chauffe-Cire Électrique",
+    "description": "Appareil chauffe-cire professionnel (Hair Remover Heater) idéal pour faire fondre rapidement tout type de cire (perles, galets). Thermostat réglable pour une température optimale et une épilation précise en salon ou à la maison.",
+    "price": 45.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/chauffe-cire.jpg"],
+    "inStock": true,
+    "tag": "Épilation"
+  },
+  {
+    "name": "Kit Manucure et Pédicure Professionnel",
+    "description": "Set complet d'outils de haute précision pour le soin des mains et des pieds. Comprend des instruments essentiels en acier inoxydable (pinces, coupe-ongles, repousse-cuticules) rangés dans un étui compact et élégant.",
+    "price": 24.00,
+    "category": "Matériel & Outillage",
+    "image": ["public/products/salon supplies/kit-manucure-pedicure.jpg"],
+    "inStock": true,
+    "tag": "Outillage Onglerie"
+  },
+  {
+    "name": "Lampe UV/LED Professionnelle 48W",
+    "description": "Lampe compacte et puissante (modèle 'Nail Lap') dotée de la technologie double source UV/LED. Idéale pour catalyser rapidement et uniformément tous types de gels et vernis semi-permanents.",
+    "price": 55.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-uv-led.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Aspirateur de Table Professionnel (Nail Dust Collector)",
+    "description": "Aspirateur à ongles puissant conçu pour capturer instantanément la poussière résiduelle lors du limage ou de la dépose au ponçage. Idéal pour maintenir un espace de travail propre et sain.",
+    "price": 49.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/aspirateur-ongles.jpg"],
+    "inStock": true,
+    "tag": "Aspirateur Ongles"
+  },
+  {
+    "name": "Lampe UV/LED Professionnelle",
+    "description": "Lampe haute puissance dotée de la technologie double source UV/LED. Conçue pour une catalysation ultra-rapide, uniforme et sécurisée de tous les types de vernis semi-permanents, gels de construction et polygels.",
+    "price": 59.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-professionnelle-uv-led.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Appareil de Massage pour Pieds (Foot Massager)",
+    "description": "Masseur de pieds électrique conçu pour soulager les tensions, stimuler la circulation sanguine et détendre les muscles fatigués. Idéal pour offrir un soin relaxant et de bien-être à vos clients ou à la maison.",
+    "price": 65.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/masseur-pieds.jpg"],
+    "inStock": true,
+    "tag": "Bien-être"
+  },
+  {
+    "name": "Gommage Exfoliant Rénovateur",
+    "description": "Soin exfoliant haute performance formulé pour éliminer efficacement les cellules mortes, les impuretés et les zones sèches ou ternes (removes dull dry and dead skin cells). Laisse la peau incroyablement lisse, douce et éclatante dès la première application.",
+    "price": 22.00,
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/gommage-exfoliant.jpg"],
+    "inStock": true,
+    "tag": "Soin Ongles"
+  },
+  {
+    "name": "Lampe UV/LED SUN S8-1 2 en 1",
+    "description": "Lampe professionnelle haute puissance (SUN S8-1 2 in 1 Nail Lamp) dotée d'une double technologie source UV/LED. Conçue pour une catalysation rapide, uniforme et performante de tous types de vernis semi-permanents, gels de construction et polygels.",
+    "price": 59.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/lampe-sun-s8-1.jpg"],
+    "inStock": true,
+    "tag": "Machine UV LED"
+  },
+  {
+    "name": "Chauffe-Cire Électrique Professionnel",
+    "description": "Appareil chauffe-cire performant (Wax Warmer) conçu pour faire fondre rapidement tout type de cire (perles, galets). Équipé d'un thermostat réglable pour maintenir la cire à une température idéale et sécurisée pendant l'épilation.",
+    "price": 45.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/chauffe-cire1.jpg"],
+    "inStock": true,
+    "tag": "Épilation"
+  },
+  {
+    "name": "Chauffe-Cire Électrique Pro Wax 100",
+    "description": "Chauffe-cire électrique professionnel Pro Wax 100 d'une capacité de 400ml. Équipé d'un thermostat réglable et d'un seau amovible, il est idéal pour faire fondre rapidement et maintenir à température idéale tous types de cires (perles, galets, cire traditionnelle).",
+    "price": 39.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/pro-wax-100.jpg"],
+    "inStock": true,
+    "tag": "Épilation"
+  },
+  {
+    "name": "Masseur Oculaire Intelligent (Eye Massager)",
+    "description": "Appareil de massage pour les yeux équipé d'une technologie de compression thermique et de vibrations multifréquences. Idéale pour soulager la fatigue oculaire, réduire les cernes et offrir un moment de relaxation profonde en fin de soin.",
+    "price": 49.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/masseur-yeux.jpg"],
+    "inStock": true,
+    "tag": "Bien-être"
+  },
+  {
+    "name": "Chauffe-Cire Électrique Professionnel (Modèle 2)",
+    "description": "Appareil chauffe-cire électrique conçu pour fondre rapidement la cire tiède ou chaude en perles, galets ou pains. Idéal pour garantir une température constante et une application fluide lors des soins d'épilation.",
+    "price": 45.00,
+    "category": "Appareils Électriques",
+    "image": ["public/products/electronique/chauffe-cire-pro.jpg"],
+    "inStock": true,
+    "tag": "Épilation"
+  }
 ]
