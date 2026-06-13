@@ -1,5 +1,5 @@
 /**
- * Seed script: Injecter TOUS les produits Salon Supplies spécifiés
+ * Seed script: Injecter TOUS les produits avec gestion dynamique des catégories
  * Run with: node scripts/seed-products.js
  */
 
@@ -48,6 +48,7 @@ async function uploadImage(source) {
 }
 
 // Constructeur du document final pour MongoDB
+// (Note : categoryId est maintenant passé dynamiquement)
 function buildProductDocument(seed) {
   const price = Number(seed.price)
   return {
@@ -57,14 +58,14 @@ function buildProductDocument(seed) {
     categoryId: seed.categoryId,
     subCategoryId: seed.subCategoryId || undefined,
     inStock: seed.inStock !== false,
-    image: seed.imageUrls, // Tableau d'URLs Cloudinary finales
-    tag: seed.tag || "",   // Conserve ton tag personnalisé
+    image: seed.imageUrls,
+    tag: seed.tag || "",
     date: Date.now()
   }
 }
 
 async function seed() {
- const jsonPath = path.join(__dirname, 'total-catalog-seed.json')
+  const jsonPath = path.join(__dirname, 'total-catalog-seed.json')
 
   if (!fs.existsSync(jsonPath)) {
     console.error(`❌ Fichier introuvable : ${jsonPath}`)
@@ -87,21 +88,39 @@ async function seed() {
     await productModel.deleteMany({})
     console.log('🗑️ Collection "products" vidée avec succès.')
 
-    // Récupérer ou créer la catégorie "Salon Supplies"
-    let salonSuppliesCat = await categoryModel.findOne({ name: "Salon Supplies" })
-    if (!salonSuppliesCat) {
-      salonSuppliesCat = await categoryModel.create({ name: "Salon Supplies", image: PLACEHOLDER_IMAGE })
-      console.log(`🆕 Catégorie créée en base : "Salon Supplies"`)
-    }
+    // Cache local pour stocker les IDs des catégories et éviter les requêtes DB redondantes
+    const categoryCache = {}
 
     const toInsert = []
     let totalItems = products.length
-    console.log(`⏳ Traitement et upload des images pour ${totalItems} produits...`)
+    console.log(`⏳ Traitement, gestion des catégories et upload des images pour ${totalItems} produits...`)
 
     for (let i = 0; i < products.length; i++) {
       const p = products[i]
 
-      // Extraction des images du champ "image" (ton JSON utilise "image")
+      // 1. Détermination du nom de la catégorie cible
+      // Si "category" existe dans le JSON (ex: "Électronique"), on le prend. Sinon, fallback sur "Salon Supplies".
+      let targetCategoryName = p.category ? String(p.category).trim() : "Salon Supplies"
+
+      // [Optionnel] Si ton JSON n'a pas encore de champ "category", tu peux automatiser par mot-clé ici :
+      // if (!p.category && (p.name.toLowerCase().includes('phone') || p.name.toLowerCase().includes('machine'))) {
+      //   targetCategoryName = "Électronique"
+      // }
+
+      // 2. Récupération ou création de la catégorie (via Cache -> MongoDB)
+      if (!categoryCache[targetCategoryName]) {
+        let cat = await categoryModel.findOne({ name: targetCategoryName })
+        if (!cat) {
+          cat = await categoryModel.create({ name: targetCategoryName, image: PLACEHOLDER_IMAGE })
+          console.log(`🆕 Nouvelle catégorie créée en base : "${targetCategoryName}"`)
+        }
+        // On stocke l'ID trouvé ou créé dans notre cache
+        categoryCache[targetCategoryName] = cat._id
+      }
+
+      const currentCategoryId = categoryCache[targetCategoryName]
+
+      // 3. Extraction et upload des images
       const rawImages = Array.isArray(p.image) ? p.image : (Array.isArray(p.images) ? p.images : [])
       const imageUrls = []
 
@@ -110,26 +129,25 @@ async function seed() {
         imageUrls.push(uploadedUrl)
       }
 
-      // Si aucune image n'est spécifiée, on met le placeholder
       if (imageUrls.length === 0) {
         imageUrls.push(PLACEHOLDER_IMAGE)
       }
 
-      // Préparation du document
+      // 4. Préparation du document avec la bonne categoryId
       toInsert.push(buildProductDocument({
         ...p,
-        categoryId: salonSuppliesCat._id,
+        categoryId: currentCategoryId,
         imageUrls
       }))
 
-      console.log(`进度 [${i + 1}/${totalItems}] - Prêt : ${p.name}`)
+      console.log(`进度 [${i + 1}/${totalItems}] - Prêt [${targetCategoryName}] : ${p.name}`)
     }
 
-    // Insertion de TOUS les produits d'un coup
+    // Insertion globale
     if (toInsert.length > 0) {
       const result = await productModel.insertMany(toInsert)
       console.log(`\n🚀 SÉCURITÉ ET COPIE REUSSIE !`)
-      console.log(`✅ Base de données mise à jour avec ${result.length} produits ajoutés dans "Salon Supplies".`)
+      console.log(`✅ Base de données mise à jour avec ${result.length} produits répartis dans leurs catégories respectives.`)
     }
 
   } catch (err) {

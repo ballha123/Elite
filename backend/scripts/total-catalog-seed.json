@@ -435,8 +435,8 @@
     "name": "Plaque de Stamping Métallique Motifs Nail Art",
     "description": "Créez des designs complexes et précis en quelques secondes. Cette plaque en acier inoxydable de haute qualité présente des gravures profondes pour un transfert parfait des motifs (fleurs, lignes, arabesques) sur vos ongles.",
     "price": 12.00,
-    "category": "Décoration & Nail Art",
-    "image": ["public/products/salon supplies/plaque-stamping.jpg"],
+    "category": "Salon Supplies",
+    "image": ["public/products/electronique/plaque-stamping.jpg"],
     "inStock": true,
     "tag": "Stamping Nail Art"
   },
@@ -444,8 +444,8 @@
     "name": "Tampon Translucide et Grattoir pour Stamping",
     "description": "L'outil indispensable pour un stamping réussi. Sa tête en silicone ultra-souple et transparente vous permet de voir exactement où vous positionnez le motif sur l'ongle. Livré avec son racleur souple.",
     "price": 8.00,
-    "category": "Décoration & Nail Art",
-    "image": ["public/products/salon supplies/tampon-stamping-transparent.jpg"],
+    "category": "Salon Supplies",
+    "image": ["public/products/electronique/tampon-stamping-transparent.jpg"],
     "inStock": true,
     "tag": "Stamping Nail Art"
   },
@@ -453,8 +453,8 @@
     "name": "Carrousel de Strass et Cristaux Multicolores",
     "description": "Apportez une touche de brillance et de luxe à vos manucures. Cette boîte circulaire à compartiments contient une sélection variée de strass scintillants de différentes tailles et couleurs pour des créations Nail Art 3D uniques.",
     "price": 15.00,
-    "category": "Décoration & Nail Art",
-    "image": ["public/products/salon supplies/carrousel-strass-ongles.jpg"],
+    "category": "Salon Supplies",
+    "image": ["public/products/electronique/carrousel-strass-ongles.jpg"],
     "inStock": true,
     "tag": "Bijoux Ongles"
   },
@@ -462,8 +462,8 @@
     "name": "Lot de Rubans Adhésifs Métallisés (Striping Tape)",
     "description": "Idéal pour tracer des lignes géométriques parfaites et des designs modernes. Ces fils décoratifs autocollants et brillants s'appliquent facilement sur le vernis ou le gel avant la finition du Top Coat.",
     "price": 10.00,
-    "category": "Décoration & Nail Art",
-    "image": ["public/products/salon supplies/striping-tape-lot.jpg"],
+    "category": "Salon Supplies",
+    "image": ["public/products/electronique/striping-tape-lot.jpg"],
     "inStock": true,
     "tag": "Fils Decoratifs"
   },
@@ -471,8 +471,8 @@
     "name": "Pince à Cuticules Professionnelle en Acier Inoxydable",
     "description": "Une découpe nette et précise pour une manucure impeccable. Conçue en acier inoxydable haute résistance, cette pince offre une excellente prise en main et des lames affûtées pour retirer les petites peaux sans douleur.",
     "price": 22.00,
-    "category": "Matériel & Outillage",
-    "image": ["public/products/salon supplies/pince-cuticules-inox.jpg"],
+    "category": "Salon Supplies",
+    "image": ["public/products/electronique/NailSander.jpg"],
     "inStock": true,
     "tag": "Outillage Manucure"
   },
@@ -480,8 +480,8 @@
     "name": "Coupe-Capsules Guillotine Professionnel Rose",
     "description": "Coupez vos faux ongles et capsules proprement et sans risque de fissures. Sa lame en acier bien aiguisée permet une coupe droite, ronde ou en biais selon l'angle choisi. Robuste et ergonomique.",
     "price": 18.00,
-    "category": "Matériel & Outillage",
-    "image": ["public/products/salon supplies/coupe-capsules-rose.jpg"],
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/Led2In1.jpg"],
     "inStock": true,
     "tag": "Outillage Manucure"
   },
@@ -489,8 +489,8 @@
     "name": "Repousse-Cuticules Double Embout en Inox",
     "description": "L'outil de préparation de l'ongle par excellence. Un côté cuillère incurvé pour repousser délicatement les cuticules et agrandir la plaque de l'ongle, et un côté grattoir pour éliminer les résidus de peau tenaces.",
     "price": 12.00,
-    "category": "Matériel & Outillage",
-    "image": ["public/products/salon supplies/repousse-cuticules-inox.jpg"],
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/NailLampWoomenCare.jpg"],
     "inStock": true,
     "tag": "Outillage Manucure"
   },
@@ -498,8 +498,8 @@
     "name": "Petite Brosse à Ongles Manuelle Rose",
     "description": "Indispensable pour nettoyer les ongles et éliminer instantanément les résidus de poussière après le limage ou le passage de la ponceuse. Poils souples en nylon et manche en plastique ergonomique.",
     "price": 4.00,
-    "category": "Matériel & Outillage",
-    "image": ["public/products/salon supplies/brosse-ongles-rose.jpg"],
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/proffessionalDualLamp.jpg"],
     "inStock": true,
     "tag": "Accessoires Manucure"
   },
@@ -507,20 +507,12 @@
     "name": "Nuancier Éventail Transparent pour Vernis",
     "description": "Présentez vos couleurs et vos créations de Nail Art comme une professionnelle. Cet éventail transparent permet à vos clientes de visualiser directement le rendu des teintes sur leurs mains.",
     "price": 14.00,
-    "category": "Matériel & Outillage",
-    "image": ["public/products/salon supplies/nuancier-eventail-transparent.jpg"],
+    "category": "Salon Supplies",
+    "image": ["public/products/salon supplies/NailLamp.jpg"],
     "inStock": true,
     "tag": "Accessoires Manucure"
   },
-  {
-    "name": "Coussin Repose-Main Ergonomique Rose",
-    "description": "Garantissez un confort absolu à votre cliente tout au long de la pose. Ce repose-main en similicuir doux et rembourré surélève idéalement le poignet pour réduire la fatigue articulaire de la cliente et de la prothésiste.",
-    "price": 28.00,
-    "category": "Matériel & Outillage",
-    "image": ["public/products/salon supplies/coussin-repose-main-rose.jpg"],
-    "inStock": true,
-    "tag": "Accessoires Manucure"
-  },
+
   {
     "name": "Lampe de Table LED Demi-Lune (Half-Moon)",
     "description": "L'éclairage ultime pour les poses complexes et le nail art. Son design en arc de cercle élimine toutes les ombres portées sur les mains de la cliente. Luminosité ajustable pour travailler avec une précision chirurgicale sans fatiguer vos yeux.",
@@ -529,15 +521,6 @@
     "image": ["public/products/electronique/lampe-demi-lune.jpg"],
     "inStock": true,
     "tag": "Eclairage"
-  },
-  {
-    "name": "Lot de Limes à Ongles Professionnelles 100/180",
-    "description": "Limes à ongles professionnelles double face (grain 100 pour le limage intensif et 180 pour la finition). Idéales pour façonner le gel, l'acrylique et préparer l'ongle naturel.",
-    "price": 10.00,
-    "category": "Matériel & Outillage",
-    "image": ["public/products/salon supplies/limes-professionnelles.jpg"],
-    "inStock": true,
-    "tag": "Limes & Chablons"
   },
   {
     "name": "Chauffe-Cire Électrique",
@@ -552,8 +535,8 @@
     "name": "Kit Manucure et Pédicure Professionnel",
     "description": "Set complet d'outils de haute précision pour le soin des mains et des pieds. Comprend des instruments essentiels en acier inoxydable (pinces, coupe-ongles, repousse-cuticules) rangés dans un étui compact et élégant.",
     "price": 24.00,
-    "category": "Matériel & Outillage",
-    "image": ["public/products/salon supplies/kit-manucure-pedicure.jpg"],
+    "category": "Salon Supplies",
+    "image": ["public/products/electronique/kit-manucure-pedicure.jpg"],
     "inStock": true,
     "tag": "Outillage Onglerie"
   },
@@ -646,5 +629,149 @@
     "image": ["public/products/electronique/chauffe-cire-pro.jpg"],
     "inStock": true,
     "tag": "Épilation"
+  },
+
+  {
+    "name": "Extensions de Cils Professionnelles - Élite Lashes",
+    "description": "Boîtier d'extensions de cils haut de gamme (Mix de longueurs de 9mm à 14mm). Idéal pour créer du volume sur-mesure avec une texture légère et un fini ultra-noir naturel.",
+    "price": 25.00,
+    "category": "Lashes",
+    "image": [
+      "public/products/lashes/elite-lashes-professional.jpeg",
+      "public/products/lashes/elite-lashes-detail.jpeg"
+    ],
+    "inStock": true,
+    "tag": "Cils Elite"
+  },
+
+  {
+    "name": "Extensions de Cils Individuelles - Aolaiya Classic Eyelash",
+    "description": "Cils individuels de haute qualité pour extensions professionnelles. Disponibles en plaquettes triées par déclinaisons de densité et de courbure (Modèles A2, A3, A4) pour s'adapter à toutes les morphologies de regard.",
+    "price": 18.00,
+    "category": "Lashes",
+    "image": [
+      "public/products/lashes/aolaiya-classic-a2.jpeg",
+      "public/products/lashes/aolaiya-classic-a3.jpeg",
+      "public/products/lashes/aolaiya-classic-a4.jpeg"
+    ],
+    "inStock": true,
+    "tag": "Cils Aolaiya"
+  },
+  {
+    "name": "Extensions de Cils Arc-en-Ciel Premium - Nagarako 0.07 D",
+    "description": "Plaquette d'extensions de cils colorées Nagarako (Épaisseur 0.07, Courbure D, Longueur 12mm). Idéal pour réaliser des poses artistiques, des dégradés de couleurs originaux ou des touches de fantaisie.",
+    "price": 22.00,
+    "category": "Lashes",
+    "image": [
+      "public/products/lashes/nagarako-premium-rainbow-007d.jpeg"
+    ],
+    "inStock": true,
+    "tag": "Nagarako Couleur"
+  },
+  {
+    "name": "Extensions de Cils Noir Intense - Nagarako 0.07 D",
+    "description": "Extensions professionnelles Nagarako Premium (Épaisseur 0.07, Courbure D, Longueur 10mm). Conçues en fibres synthétiques de soie ultra-douces, stables et très faciles à travailler pour un résultat impeccable.",
+    "price": 20.00,
+    "category": "Lashes",
+    "image": [
+      "public/products/lashes/nagarako-premium-black-007d.jpeg"
+    ],
+    "inStock": true,
+    "tag": "Nagarako Classic"
+  },
+  {
+    "name": "Extensions de Cils Volume Russe - Nagarako Auto-Fans",
+    "description": "Cils Auto-Fans professionnels (Épaisseur 0.07, Courbure D, Mix de longueurs). Technologie facilitant la création instantanée de bouquets volumineux dès le prélèvement à la pince. Gain de temps assuré pour les poses de Volume Russe.",
+    "price": 24.00,
+    "category": "Lashes",
+    "image": [
+      "public/products/lashes/nagarako-autofans-volume.jpeg"
+    ],
+    "inStock": true,
+    "tag": "Nagarako Auto-Fans"
+  },
+  
+
+  {
+    "name": "Présentoir de Faux Cils Professionnel - Série DS",
+    "description": "Plateau de présentation complet regroupant une large sélection de styles de faux cils (Modèles DS037, DS034, DS029, etc.). Parfait pour les salons afin de guider le choix de la cliente.",
+    "price": 35.00,
+    "category": "Lashes",
+    "image": [
+      "public/products/lashes/lashes-display-stand-ds.jpeg"
+    ],
+    "inStock": true,
+    "tag": "Présentoir"
+  },
+  {
+    "name": "Faux Cils en Bouquets DIY - Élite Lashes",
+    "description": "Bouquets de cils individuels de qualité supérieure faits main (100% Hand Made). Conçus pour une application DIY simple, rapide et un volume sur-mesure ultra-léger. Disponibles en plaquettes de 10mm et 12mm.",
+    "price": 16.00,
+    "category": "Lashes",
+    "image": [
+      "public/products/lashes/elite-diy-clusters-10mm.jpeg",
+      "public/products/lashes/elite-diy-clusters-12mm.jpeg"
+    ],
+    "inStock": true,
+    "tag": "Élite DIY"
+  },
+  {
+    "name": "Extensions de Cils en Bouquets - Nesura Eyelash",
+    "description": "Bouquets de cils professionnels haut de gamme (Longueur 10mm). Base ultra-fine et pointes souples pour une intégration invisible et un effet oeil de biche immédiat.",
+    "price": 14.00,
+    "category": "Lashes",
+    "image": [
+      "public/products/lashes/nesura-eyelash-clusters-10mm.jpeg"
+    ],
+    "inStock": true,
+    "tag": "Nesura"
+  },
+  {
+    "name": "Bouquets de Cils Professionnels - Élite Lashes (Courbure D)",
+    "description": "Gamme professionnelle Élite Lashes à forte densité (Modèles 10P, Courbure D). Texture ultra-noire et soyeuse, idéale pour les poses de volume russes intenses. Disponibles en formats variés de 10mm et 12mm.",
+    "price": 18.00,
+    "category": "Lashes",
+    "image": [
+      "public/products/lashes/elite-professional-clusters-10mm-square.jpeg",
+      "public/products/lashes/elite-professional-clusters-10mm-wide.jpeg",
+      "public/products/lashes/elite-professional-clusters-12mm-large.jpeg"
+    ],
+    "inStock": true,
+    "tag": "Élite Pro"
+  },
+  {
+    "name": "Pack de 5 Paires de Faux Cils 3D - Modèle P172-F",
+    "description": "Coffret économique de 5 paires de faux cils réutilisables présentés sur un support rose. Design multicouche texturé apportant longueur et volume glamour instantanés.",
+    "price": 12.00,
+    "category": "Lashes",
+    "image": [
+      "public/products/lashes/strip-lashes-pack-p172f.jpeg"
+    ],
+    "inStock": true,
+    "tag": "Faux Cils Pack"
+  },
+  {
+    "name": "Extensions de Cils Luxury Bouquets - Élite Lashes (10mm)",
+    "description": "Bouquets de cils professionnels de qualité supérieure présentés dans leur boîtier blanc et or élégant. Conçus pour apporter un volume sur-mesure avec une légèreté absolue et une frange ultra-régulière.",
+    "price": 16.00,
+    "category": "Lashes",
+    "image": [
+      "public/products/lashes/elite-luxury-clusters-10mm.jpeg"
+    ],
+    "inStock": true,
+    "tag": "Élite Gold"
+  },
+  {
+    "name": "Extensions de Cils Individuelles - Aolaiya Classic (Modèle A1)",
+    "description": "Cils individuels professionnels de la gamme Aolaiya Classic, modèle spécifique A1. Offre une texture soyeuse et une courbure parfaite pour s'adapter naturellement à la morphologie du regard de vos clientes.",
+    "price": 18.00,
+    "category": "Lashes",
+    "image": [
+      "public/products/lashes/aolaiya-classic-a1.jpeg"
+    ],
+    "inStock": true,
+    "tag": "Cils Aolaiya"
   }
+
+
 ]
